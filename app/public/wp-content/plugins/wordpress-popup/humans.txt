@@ -1,0 +1,6 @@
+/* TEAM */
+	Lead Developer: Ivan Svyrskyi
+	Location: Kharkiv, Ukraine
+
+    Designer: Afia Udofia
+    Location: Lagos, Nigeria

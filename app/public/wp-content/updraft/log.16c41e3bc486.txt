@@ -1,0 +1,620 @@
+0000.000 (0) Opened log file at time: Tue, 25 Jun 2024 15:22:12 +0000 on http://localhost:10003
+0000.090 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.24.3 WP: 6.5.5 PHP: 8.1.23 (fpm-fcgi, Linux kali 6.8.11-amd64 #1 SMP PREEMPT_DYNAMIC Kali 6.8.11-1kali2 (2024-05-30) x86_64) MySQL: 8.0.16 (max packet size=16777216) WPLANG: fr_FR Server: nginx/1.16.0 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 10.7M | 12M) multisite: N openssl: OpenSSL 1.1.1f  31 Mar 2020 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.168 (0) Free space on disk containing Updraft's temporary directory: 205821.2 MB
+0000.295 (0) Tasks: Backup files: 1 (schedule: daily) Backup DB: 1 (schedule: daily)
+0000.514 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.916 (0) Set semaphore last lock (fd) time to 2024-06-25 15:22:13
+0000.994 (0) Semaphore lock (fd) complete
+0001.262 (0) Backup run: resumption=0, nonce=16c41e3bc486, file_nonce=16c41e3bc486 begun at=1719328932 (1s ago), job type=backup
+0001.430 (0) Scheduling a resumption (1) after 300 seconds (1719329233) in case this run gets aborted
+0001.673 (0) Checking if we have a zip executable available
+0001.753 (0) Testing: /usr/bin/zip
+0001.850 (0) Output: zip warning: binziptest/test.zip not found or empty
+0001.968 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0002.047 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0002.158 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0002.247 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0002.344 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0002.449 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0002.530 (0) Working binary zip found: /usr/bin/zip
+0002.728 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0002.806 (0) Creation of backups of directories: beginning
+0003.063 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0003.492 (0) Total entities for the zip file: 2029 directories, 9360 files (0 skipped as non-modified), 177.3 MB
+0003.645 (0) Zip: backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0003.734 (0) Zip: backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0003.824 (0) Zip: backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0003.904 (0) Zip: backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0003.995 (0) Zip: backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0004.084 (0) Zip: backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-plugins.zip.tmp: 600 files added (on-disk size: 0 KB)
+0004.173 (0) Zip: backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-plugins.zip.tmp: 700 files added (on-disk size: 0 KB)
+0004.252 (0) Zip: backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-plugins.zip.tmp: 800 files added (on-disk size: 0 KB)
+0004.363 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (25.4 MB, 9360 files batched, 869 (869) added so far); re-opening (prior size: 0 KB)
+0005.921 (0) backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-plugins.zip.tmp: size is now: 8.20 MB
+0006.099 (0) A useful amount of data was added after this amount of zip processing: 3.5 s (normalised: 3.4 s, rate: 7511 KB/s)
+0006.267 (0) Performance is good - will increase the amount of data we attempt to batch (time=3.4673790931702, normalised_time=3.4083146325598, max_time=6.1774649620056, data points known=1, old_max_bytes=26214400, new_max_bytes=46147852)
+0006.825 (0) Zip: backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-plugins.zip.tmp: 900 files added (on-disk size: 8354 KB)
+0006.916 (0) Zip: backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-plugins.zip.tmp: 1000 files added (on-disk size: 8354 KB)
+0007.005 (0) Zip: backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-plugins.zip.tmp: 1100 files added (on-disk size: 8354 KB)
+0007.086 (0) Zip: backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-plugins.zip.tmp: 1200 files added (on-disk size: 8354 KB)
+0007.197 (0) Zip: backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-plugins.zip.tmp: 1300 files added (on-disk size: 8354 KB)
+0007.309 (0) Zip: backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-plugins.zip.tmp: 1400 files added (on-disk size: 8354 KB)
+0007.421 (0) Zip: backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-plugins.zip.tmp: 1500 files added (on-disk size: 8354 KB)
+0007.530 (0) Zip: backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-plugins.zip.tmp: 1600 files added (on-disk size: 8354 KB)
+0007.611 (0) Zip: backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-plugins.zip.tmp: 1700 files added (on-disk size: 8354 KB)
+0007.721 (0) Zip: backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-plugins.zip.tmp: 1800 files added (on-disk size: 8354 KB)
+0007.810 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (31.3 MB, 9360 files batched, 1001 (1870) added so far); re-opening (prior size: 8354 KB)
+0008.968 (0) PHP event: code E_WARNING: filesize(): stat failed for /home/michy/Local Sites/banana-design/app/public/wp-content/updraft/backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-plugins.zip.tmp (line 506, wp-content/plugins/updraftplus/includes/class-zip.php)
+0009.101 (0) backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-plugins.zip.tmp: size is now: 15.60 MB
+0009.315 (0) Zip: backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-plugins.zip.tmp: 1900 files added (on-disk size: 15987.1 KB)
+0009.496 (0) Zip: backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-plugins.zip.tmp: 2000 files added (on-disk size: 15987.1 KB)
+0009.585 (0) Zip: backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-plugins.zip.tmp: 2100 files added (on-disk size: 15987.1 KB)
+0009.663 (0) Zip: backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-plugins.zip.tmp: 2200 files added (on-disk size: 15987.1 KB)
+0009.777 (0) Zip: backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-plugins.zip.tmp: 2300 files added (on-disk size: 15987.1 KB)
+0009.889 (0) Zip: backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-plugins.zip.tmp: 2400 files added (on-disk size: 15987.1 KB)
+0010.001 (0) Zip: backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-plugins.zip.tmp: 2500 files added (on-disk size: 15987.1 KB)
+0010.245 (0) Zip: backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-plugins.zip.tmp: 2600 files added (on-disk size: 15987.1 KB)
+0010.413 (0) Zip: backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-plugins.zip.tmp: 2700 files added (on-disk size: 15987.1 KB)
+0010.524 (0) Zip: backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-plugins.zip.tmp: 2800 files added (on-disk size: 15987.1 KB)
+0010.646 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (16.8 MB, 9360 files batched, 1001 (2871) added so far); re-opening (prior size: 15987.1 KB)
+0011.579 (0) backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-plugins.zip.tmp: size is now: 19.50 MB
+0011.815 (0) Zip: backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-plugins.zip.tmp: 2900 files added (on-disk size: 20001.2 KB)
+0011.907 (0) Zip: backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-plugins.zip.tmp: 3000 files added (on-disk size: 20001.2 KB)
+0011.997 (0) Zip: backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-plugins.zip.tmp: 3100 files added (on-disk size: 20001.2 KB)
+0012.074 (0) Zip: backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-plugins.zip.tmp: 3200 files added (on-disk size: 20001.2 KB)
+0012.161 (0) Zip: backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-plugins.zip.tmp: 3300 files added (on-disk size: 20001.2 KB)
+0012.240 (0) Zip: backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-plugins.zip.tmp: 3400 files added (on-disk size: 20001.2 KB)
+0012.612 (0) Zip: backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-plugins.zip.tmp: 3500 files added (on-disk size: 20001.2 KB)
+0012.768 (0) Zip: backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-plugins.zip.tmp: 3600 files added (on-disk size: 20001.2 KB)
+0012.891 (0) Zip: backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-plugins.zip.tmp: 3700 files added (on-disk size: 20001.2 KB)
+0013.058 (0) Zip: backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-plugins.zip.tmp: 3800 files added (on-disk size: 20001.2 KB)
+0013.190 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (22.8 MB, 9360 files batched, 1001 (3872) added so far); re-opening (prior size: 20001.2 KB)
+0014.570 (0) backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-plugins.zip.tmp: size is now: 26.90 MB
+0014.862 (0) Zip: backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-plugins.zip.tmp: 3900 files added (on-disk size: 27543.3 KB)
+0014.965 (0) Zip: backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-plugins.zip.tmp: 4000 files added (on-disk size: 27543.3 KB)
+0015.044 (0) Zip: backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-plugins.zip.tmp: 4100 files added (on-disk size: 27543.3 KB)
+0015.155 (0) Zip: backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-plugins.zip.tmp: 4200 files added (on-disk size: 27543.3 KB)
+0015.244 (0) Zip: backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-plugins.zip.tmp: 4300 files added (on-disk size: 27543.3 KB)
+0015.591 (0) Zip: backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-plugins.zip.tmp: 4400 files added (on-disk size: 27543.3 KB)
+0015.681 (0) Zip: backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-plugins.zip.tmp: 4500 files added (on-disk size: 27543.3 KB)
+0015.770 (0) Zip: backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-plugins.zip.tmp: 4600 files added (on-disk size: 27543.3 KB)
+0015.859 (0) Zip: backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-plugins.zip.tmp: 4700 files added (on-disk size: 27543.3 KB)
+0015.949 (0) Zip: backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-plugins.zip.tmp: 4800 files added (on-disk size: 27543.3 KB)
+0016.037 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (15.3 MB, 9360 files batched, 1001 (4873) added so far); re-opening (prior size: 27543.3 KB)
+0016.612 (0) backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-plugins.zip.tmp: size is now: 32.80 MB
+0016.994 (0) Zip: backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-plugins.zip.tmp: 4900 files added (on-disk size: 33617.9 KB)
+0017.086 (0) Zip: backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-plugins.zip.tmp: 5000 files added (on-disk size: 33617.9 KB)
+0017.162 (0) Zip: backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-plugins.zip.tmp: 5100 files added (on-disk size: 33617.9 KB)
+0017.243 (0) Zip: backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-plugins.zip.tmp: 5200 files added (on-disk size: 33617.9 KB)
+0017.420 (0) Zip: backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-plugins.zip.tmp: 5300 files added (on-disk size: 33617.9 KB)
+0017.522 (0) Zip: backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-plugins.zip.tmp: 5400 files added (on-disk size: 33617.9 KB)
+0017.611 (0) Zip: backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-plugins.zip.tmp: 5500 files added (on-disk size: 33617.9 KB)
+0017.701 (0) Zip: backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-plugins.zip.tmp: 5600 files added (on-disk size: 33617.9 KB)
+0017.790 (0) Zip: backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-plugins.zip.tmp: 5700 files added (on-disk size: 33617.9 KB)
+0018.013 (0) Zip: backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-plugins.zip.tmp: 5800 files added (on-disk size: 33617.9 KB)
+0018.111 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (6.2 MB, 9360 files batched, 1001 (5874) added so far); re-opening (prior size: 33617.9 KB)
+0018.581 (0) Zip: backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-plugins.zip.tmp: 5900 files added (on-disk size: 35406.1 KB)
+0018.673 (0) Zip: backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-plugins.zip.tmp: 6000 files added (on-disk size: 35406.1 KB)
+0018.762 (0) Zip: backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-plugins.zip.tmp: 6100 files added (on-disk size: 35406.1 KB)
+0018.897 (0) Zip: backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-plugins.zip.tmp: 6200 files added (on-disk size: 35406.1 KB)
+0019.139 (0) Zip: backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-plugins.zip.tmp: 6300 files added (on-disk size: 35406.1 KB)
+0019.231 (0) Zip: backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-plugins.zip.tmp: 6400 files added (on-disk size: 35406.1 KB)
+0019.398 (0) Zip: backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-plugins.zip.tmp: 6500 files added (on-disk size: 35406.1 KB)
+0019.511 (0) Zip: backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-plugins.zip.tmp: 6600 files added (on-disk size: 35406.1 KB)
+0019.621 (0) Zip: backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-plugins.zip.tmp: 6700 files added (on-disk size: 35406.1 KB)
+0019.711 (0) Zip: backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-plugins.zip.tmp: 6800 files added (on-disk size: 35406.1 KB)
+0019.799 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (20.5 MB, 9360 files batched, 1001 (6875) added so far); re-opening (prior size: 35406.1 KB)
+0020.807 (0) backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-plugins.zip.tmp: size is now: 41.60 MB
+0021.093 (0) Zip: backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-plugins.zip.tmp: 6900 files added (on-disk size: 42562.6 KB)
+0021.206 (0) Zip: backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-plugins.zip.tmp: 7000 files added (on-disk size: 42562.6 KB)
+0021.341 (0) Zip: backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-plugins.zip.tmp: 7100 files added (on-disk size: 42562.6 KB)
+0021.619 (0) Zip: backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-plugins.zip.tmp: 7200 files added (on-disk size: 42562.6 KB)
+0021.697 (0) Zip: backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-plugins.zip.tmp: 7300 files added (on-disk size: 42562.6 KB)
+0021.787 (0) Zip: backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-plugins.zip.tmp: 7400 files added (on-disk size: 42562.6 KB)
+0021.865 (0) Zip: backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-plugins.zip.tmp: 7500 files added (on-disk size: 42562.6 KB)
+0021.954 (0) Zip: backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-plugins.zip.tmp: 7600 files added (on-disk size: 42562.6 KB)
+0022.032 (0) Zip: backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-plugins.zip.tmp: 7700 files added (on-disk size: 42562.6 KB)
+0022.143 (0) Zip: backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-plugins.zip.tmp: 7800 files added (on-disk size: 42562.6 KB)
+0022.232 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (7.1 MB, 9360 files batched, 1001 (7876) added so far); re-opening (prior size: 42562.6 KB)
+0023.080 (0) Zip: backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-plugins.zip.tmp: 7900 files added (on-disk size: 46306.8 KB)
+0023.170 (0) Zip: backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-plugins.zip.tmp: 8000 files added (on-disk size: 46306.8 KB)
+0023.272 (0) Zip: backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-plugins.zip.tmp: 8100 files added (on-disk size: 46306.8 KB)
+0023.461 (0) Zip: backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-plugins.zip.tmp: 8200 files added (on-disk size: 46306.8 KB)
+0023.563 (0) Zip: backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-plugins.zip.tmp: 8300 files added (on-disk size: 46306.8 KB)
+0023.653 (0) Zip: backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-plugins.zip.tmp: 8400 files added (on-disk size: 46306.8 KB)
+0023.731 (0) Zip: backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-plugins.zip.tmp: 8500 files added (on-disk size: 46306.8 KB)
+0023.865 (0) Zip: backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-plugins.zip.tmp: 8600 files added (on-disk size: 46306.8 KB)
+0023.942 (0) Zip: backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-plugins.zip.tmp: 8700 files added (on-disk size: 46306.8 KB)
+0024.187 (0) Zip: backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-plugins.zip.tmp: 8800 files added (on-disk size: 46306.8 KB)
+0024.287 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (18 MB, 9360 files batched, 1001 (8877) added so far); re-opening (prior size: 46306.8 KB)
+0026.049 (0) Zip: backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-plugins.zip.tmp: 8900 files added (on-disk size: 53235 KB)
+0026.138 (0) Zip: backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-plugins.zip.tmp: 9000 files added (on-disk size: 53235 KB)
+0026.231 (0) Zip: backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-plugins.zip.tmp: 9100 files added (on-disk size: 53235 KB)
+0026.389 (0) Zip: backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-plugins.zip.tmp: 9200 files added (on-disk size: 53235 KB)
+0026.655 (0) Zip: backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-plugins.zip.tmp: 9300 files added (on-disk size: 53235 KB)
+0027.864 (0) Creating zip file manifest (backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-plugins.zip.list-temp.tmp)
+0028.084 (0) Successfully created zip file manifest (size: 771976)
+0029.516 (0) Created plugins zip (0) - 57452.1 KB in 26 s (2207.4 KB/s) (sha1: a4f270a4fdfca589cf85e74a8fbbf7768fc7cd2e, sha256: 15f6528f94eb81eb6383a08fd7ad7f86e0ba3fbaa700e65e992d7432c502df16)
+0029.986 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0030.198 (0) No remote despatch: user chose no remote backup service
+0030.321 (0) Recording as successfully uploaded: backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-plugins.zip
+0030.933 (0) Deleting zip manifest (backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-plugins.zip.list.tmp)
+0031.601 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0031.701 (0) Number of backup sets in history: 2; groups (db): 1
+0031.912 (0) Examining (for databases) backup set with group_id=0, nonce=993bc031422a, datestamp=1719299054 (Jun 25 2024 07:04:14)
+0032.001 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0032.280 (0) Examining (for databases) backup set with group_id=0, nonce=e39786d7b664, datestamp=1719251935 (Jun 24 2024 17:58:55)
+0032.280 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0032.280 (0) Number of backup sets in history: 2; groups (files): 1
+0032.626 (0) Examining (for files) backup set with nonce=993bc031422a, datestamp=1719299054 (Jun 25 2024 07:04:14)
+0032.626 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0032.715 (0) Examining (for files) backup set with nonce=e39786d7b664, datestamp=1719251935 (Jun 24 2024 17:58:55)
+0032.715 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0032.949 (0) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0033.696 (0) Beginning creation of dump of themes (split every: 400 MB)
+0034.141 (0) Total entities for the zip file: 151 directories, 1072 files (0 skipped as non-modified), 26.3 MB
+0034.236 (0) Zip: backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0034.526 (0) Zip: backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0034.637 (0) Zip: backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0034.904 (0) Zip: backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0034.994 (0) Zip: backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0035.229 (0) Zip: backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-themes.zip.tmp: 600 files added (on-disk size: 0 KB)
+0035.507 (0) Zip: backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-themes.zip.tmp: 700 files added (on-disk size: 0 KB)
+0035.874 (0) Zip: backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-themes.zip.tmp: 800 files added (on-disk size: 0 KB)
+0035.962 (0) Zip: backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-themes.zip.tmp: 900 files added (on-disk size: 0 KB)
+0036.195 (0) Zip: backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-themes.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0036.305 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (22.8 MB, 1072 files batched, 1001 (1001) added so far); re-opening (prior size: 0 KB)
+0037.916 (0) backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-themes.zip.tmp: size is now: 10.10 MB
+0038.927 (0) Creating zip file manifest (backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-themes.zip.list-temp.tmp)
+0039.183 (0) Successfully created zip file manifest (size: 76005)
+0039.984 (0) Created themes zip (0) - 11236.5 KB in 6 s (1884 KB/s) (sha1: 0a8e58fc6201ec9d208739a7c184a4ce57c6593f, sha256: 16dd0ec0b7928d67a15714b6fdbee9dd7e49e63a2d9218f268b9b0f7241e13ef)
+0040.641 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0040.875 (0) No remote despatch: user chose no remote backup service
+0040.954 (0) Recording as successfully uploaded: backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-themes.zip
+0041.287 (0) Deleting zip manifest (backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-themes.zip.list.tmp)
+0041.711 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0041.946 (0) Number of backup sets in history: 2; groups (db): 1
+0042.024 (0) Examining (for databases) backup set with group_id=0, nonce=993bc031422a, datestamp=1719299054 (Jun 25 2024 07:04:14)
+0042.247 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0042.615 (0) Examining (for databases) backup set with group_id=0, nonce=e39786d7b664, datestamp=1719251935 (Jun 24 2024 17:58:55)
+0042.616 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0042.616 (0) Number of backup sets in history: 2; groups (files): 1
+0042.705 (0) Examining (for files) backup set with nonce=993bc031422a, datestamp=1719299054 (Jun 25 2024 07:04:14)
+0042.705 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0042.928 (0) Examining (for files) backup set with nonce=e39786d7b664, datestamp=1719251935 (Jun 24 2024 17:58:55)
+0042.928 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0042.928 (0) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0043.663 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0043.775 (0) Looking for candidates to backup in: /home/michy/Local Sites/banana-design/app/public/wp-content/uploads
+0043.864 (0) finding files: elementor: adding to list (1)
+0043.942 (0) finding files: oceanwp-webfonts: adding to list (2)
+0044.031 (0) finding files: 2016: adding to list (3)
+0044.109 (0) finding files: oceanwp-webfonts-css: adding to list (4)
+0044.198 (0) finding files: 2024: adding to list (5)
+0044.299 (0) finding files: backup: skipping: excluded by options (glob)
+0044.477 (0) finding files: wpforms: adding to list (6)
+0044.711 (0) finding files: 2022: adding to list (7)
+0044.790 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0044.958 (0) Total entities for the zip file: 15 directories, 345 files (0 skipped as non-modified), 31.8 MB
+0045.075 (0) Zip: backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0045.162 (0) Zip: backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-uploads.zip.tmp: 200 files added (on-disk size: 0 KB)
+0045.254 (0) Zip: backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-uploads.zip.tmp: 300 files added (on-disk size: 0 KB)
+0045.931 (0) backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-uploads.zip.tmp: size is now: 26.40 MB
+0046.107 (0) Creating zip file manifest (backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-uploads.zip.list-temp.tmp)
+0046.213 (0) Successfully created zip file manifest (size: 18913)
+0047.496 (0) Created uploads zip (0) - 27023.9 KB in 2.3 s (11523.1 KB/s) (sha1: e2abed85f832e2557dc5e31d5b6c2eb5f9b5686f, sha256: 87bc593da01f827df760f10d84fbde7e3a0cef55bab30d96804ae5ca2d9be6a2)
+0048.086 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0048.164 (0) No remote despatch: user chose no remote backup service
+0048.409 (0) Recording as successfully uploaded: backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-uploads.zip
+0048.844 (0) Deleting zip manifest (backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-uploads.zip.list.tmp)
+0049.134 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0049.391 (0) Number of backup sets in history: 2; groups (db): 1
+0049.701 (0) Examining (for databases) backup set with group_id=0, nonce=993bc031422a, datestamp=1719299054 (Jun 25 2024 07:04:14)
+0049.913 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0050.003 (0) Examining (for databases) backup set with group_id=0, nonce=e39786d7b664, datestamp=1719251935 (Jun 24 2024 17:58:55)
+0050.003 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0050.003 (0) Number of backup sets in history: 2; groups (files): 1
+0050.248 (0) Examining (for files) backup set with nonce=993bc031422a, datestamp=1719299054 (Jun 25 2024 07:04:14)
+0050.248 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0050.693 (0) Examining (for files) backup set with nonce=e39786d7b664, datestamp=1719251935 (Jun 24 2024 17:58:55)
+0050.693 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0050.782 (0) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0051.217 (0) No backup of mu-plugins: excluded by user's options
+0051.798 (0) Beginning backup of other directories found in the content directory (index: 0)
+0051.887 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0052.109 (0) Looking for candidates to backup in: /home/michy/Local Sites/banana-design/app/public/wp-content
+0052.199 (0) finding files: wflogs: adding to list (1)
+0052.434 (0) finding files: upgrade: skipping: excluded by options
+0052.745 (0) finding files: index.php: adding to list (2)
+0052.823 (0) finding files: themes: skipping: this is the themes directory
+0053.079 (0) finding files: languages: adding to list (3)
+0053.157 (0) finding files: updraft: skipping: this is the updraft directory
+0053.380 (0) finding files: plugins: skipping: this is the plugins directory
+0053.725 (0) finding files: upgrade-temp-backup: adding to list (4)
+0053.814 (0) finding files: uploads: skipping: this is the uploads directory
+0054.077 (0) Total entities for the zip file: 6 directories, 184 files (0 skipped as non-modified), 16 MB
+0054.173 (0) Zip: backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-others.zip.tmp: 100 files added (on-disk size: 0 KB)
+0056.019 (0) backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-others.zip.tmp: size is now: 5.90 MB
+0056.671 (0) Creating zip file manifest (backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-others.zip.list-temp.tmp)
+0056.971 (0) Successfully created zip file manifest (size: 11878)
+0057.639 (0) Created others zip (0) - 6005.8 KB in 3.6 s (1684 KB/s) (sha1: 6e7086362bb0ad0926b840241f59ce5169862cd0, sha256: 767693b3523b2f8ba3f0ba21326712537db8e89870af45fc3459bbfbf8bd5551)
+0057.985 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0058.074 (0) No remote despatch: user chose no remote backup service
+0058.510 (0) Recording as successfully uploaded: backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-others.zip
+0059.690 (0) Deleting zip manifest (backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-others.zip.list.tmp)
+0059.847 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0059.926 (0) Number of backup sets in history: 2; groups (db): 1
+0060.015 (0) Examining (for databases) backup set with group_id=0, nonce=993bc031422a, datestamp=1719299054 (Jun 25 2024 07:04:14)
+0060.104 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0060.193 (0) Examining (for databases) backup set with group_id=0, nonce=e39786d7b664, datestamp=1719251935 (Jun 24 2024 17:58:55)
+0060.193 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0060.193 (0) Number of backup sets in history: 2; groups (files): 1
+0060.392 (0) Examining (for files) backup set with nonce=993bc031422a, datestamp=1719299054 (Jun 25 2024 07:04:14)
+0060.392 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0060.484 (0) Examining (for files) backup set with nonce=e39786d7b664, datestamp=1719251935 (Jun 24 2024 17:58:55)
+0060.484 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0060.484 (0) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0061.053 (0) Saving backup status to database (elements: 8)
+0061.220 (0) Beginning creation of database dump (WordPress DB)
+0061.367 (0) SQL compatibility mode is: NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION
+0061.623 (0) Testing potential mysqldump binary: /usr/bin/mysqldump
+0061.713 (0) Binary mysqldump: error (code: 2)
+0061.893 (0) Testing potential mysqldump binary: /bin/mysqldump
+0061.993 (0) Binary mysqldump: error (code: 2)
+0062.564 (0) Table wp_options: Total expected rows (via COUNT): 403
+0062.675 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0063.154 (0) Table wp_options: Rows added in this batch (next record: 1842): 396 (uncompressed bytes in this segment=1144001) in 0.78 seconds
+0063.579 (0) Table wp_options: finishing file(s) (2, 131.3 KB)
+0063.753 (0) Table wp_users: Total expected rows (via COUNT): 1
+0063.869 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0064.183 (0) Table wp_users: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1380) in 0.43 seconds
+0064.574 (0) Table wp_users: finishing file(s) (2, 0.6 KB)
+0064.876 (0) Table wp_usermeta: Total expected rows (via COUNT): 28
+0064.955 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0065.290 (0) Table wp_usermeta: Rows added in this batch (next record: 29): 28 (uncompressed bytes in this segment=3599) in 0.52 seconds
+0065.702 (0) Table wp_usermeta: finishing file(s) (2, 1.7 KB)
+0065.993 (0) Table wp_actionscheduler_actions: Total expected rows (via COUNT): 17
+0066.060 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0066.409 (0) Table wp_actionscheduler_actions: Rows added in this batch (next record: 603): 17 (uncompressed bytes in this segment=8298) in 0.54 seconds
+0066.854 (0) Table wp_actionscheduler_actions: finishing file(s) (2, 1.5 KB)
+0067.051 (0) Table wp_actionscheduler_claims: Total expected rows (via COUNT): 0
+0067.223 (0) Table wp_actionscheduler_claims: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=625) in 0.18 seconds
+0067.715 (0) Table wp_actionscheduler_claims: finishing file(s) (2, 0.4 KB)
+0067.899 (0) Table wp_actionscheduler_groups: Total expected rows (via COUNT): 2
+0067.983 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0068.162 (0) Table wp_actionscheduler_groups: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=706) in 0.27 seconds
+0068.666 (0) Table wp_actionscheduler_groups: finishing file(s) (2, 0.4 KB)
+0068.878 (0) Table wp_actionscheduler_logs: Total expected rows (via COUNT): 41
+0068.980 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0069.282 (0) Table wp_actionscheduler_logs: Rows added in this batch (next record: 41): 41 (uncompressed bytes in this segment=4339) in 0.41 seconds
+0071.629 (0) Table wp_actionscheduler_logs: finishing file(s) (2, 0.9 KB)
+0072.185 (0) Table wp_commentmeta: Total expected rows (via COUNT): 0
+0072.734 (0) Table wp_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=685) in 0.65 seconds
+0073.860 (0) Table wp_commentmeta: finishing file(s) (2, 0.4 KB)
+0074.548 (0) Table wp_comments: Total expected rows (via COUNT): 0
+0075.097 (0) Table wp_comments: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1722) in 0.55 seconds
+0075.588 (0) Table wp_comments: finishing file(s) (2, 0.5 KB)
+0077.337 (0) Table wp_imagify_files: Total expected rows (via COUNT): 0
+0077.651 (0) Table wp_imagify_files: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1516) in 0.66 seconds
+0078.086 (0) Table wp_imagify_files: finishing file(s) (2, 0.6 KB)
+0078.682 (0) Table wp_imagify_folders: Total expected rows (via COUNT): 0
+0078.766 (0) Table wp_imagify_folders: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=642) in 0.09 seconds
+0079.401 (0) Table wp_imagify_folders: finishing file(s) (2, 0.4 KB)
+0079.782 (0) Table wp_links: Total expected rows (via COUNT): 0
+0080.028 (0) Table wp_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1310) in 0.25 seconds
+0080.485 (0) Table wp_links: finishing file(s) (2, 0.5 KB)
+0080.809 (0) Table wp_postmeta: Total expected rows (approximate): 1398
+0081.087 (0) Table wp_postmeta: Rows added in this batch (next record: 2078): 1733 (uncompressed bytes in this segment=3147176) in 0.41 seconds
+0081.646 (0) Table wp_postmeta: finishing file(s) (2, 229.7 KB)
+0081.950 (0) Table wp_posts: Total expected rows (via COUNT): 196
+0082.028 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0082.249 (0) Table wp_posts: Rows added in this batch (next record: 720): 196 (uncompressed bytes in this segment=1188923) in 0.42 seconds
+0082.956 (0) Table wp_posts: finishing file(s) (2, 75.8 KB)
+0083.128 (0) Table wp_term_relationships: Total expected rows (approximate): 33
+0083.393 (0) Table wp_term_relationships: Rows added in this batch (next record: 100000): 24 (uncompressed bytes in this segment=1021) in 0.27 seconds
+0083.815 (0) Table wp_term_relationships: finishing file(s) (2, 0.5 KB)
+0084.141 (0) Table wp_term_taxonomy: Total expected rows (via COUNT): 8
+0084.219 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0084.500 (0) Table wp_term_taxonomy: Rows added in this batch (next record: 9): 8 (uncompressed bytes in this segment=1172) in 0.46 seconds
+0084.989 (0) Table wp_term_taxonomy: finishing file(s) (2, 0.5 KB)
+0085.414 (0) Table wp_termmeta: Total expected rows (via COUNT): 0
+0085.871 (0) Table wp_termmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=658) in 0.70 seconds
+0087.143 (0) Table wp_termmeta: finishing file(s) (2, 0.4 KB)
+0087.540 (0) Table wp_terms: Total expected rows (via COUNT): 8
+0087.812 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0088.126 (0) Table wp_terms: Rows added in this batch (next record: 9): 8 (uncompressed bytes in this segment=942) in 0.59 seconds
+0088.771 (0) Table wp_terms: finishing file(s) (2, 0.5 KB)
+0088.957 (0) Table wp_blc_filters: Total expected rows (via COUNT): 0
+0089.552 (0) Table wp_blc_filters: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=537) in 0.60 seconds
+0089.964 (0) Table wp_blc_filters: finishing file(s) (2, 0.3 KB)
+0090.508 (0) Table wp_blc_instances: Total expected rows (via COUNT): 3
+0090.646 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0090.960 (0) Table wp_blc_instances: Rows added in this batch (next record: 383): 3 (uncompressed bytes in this segment=1521) in 0.46 seconds
+0091.594 (0) Table wp_blc_instances: finishing file(s) (2, 0.6 KB)
+0091.779 (0) Table wp_blc_links: Total expected rows (via COUNT): 3
+0091.851 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0092.030 (0) Table wp_blc_links: Rows added in this batch (next record: 34): 3 (uncompressed bytes in this segment=5502) in 0.25 seconds
+0092.421 (0) Table wp_blc_links: finishing file(s) (2, 1.5 KB)
+0092.771 (0) Table wp_blc_synch: Total expected rows (approximate): 15
+0092.970 (0) Table wp_blc_synch: Rows added in this batch (next record: 1000): 1 (uncompressed bytes in this segment=711) in 0.20 seconds
+0093.226 (0) Table wp_blc_synch: finishing file(s) (2, 0.4 KB)
+0093.502 (0) Table wp_e_events: Total expected rows (via COUNT): 0
+0093.718 (0) Table wp_e_events: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=529) in 0.22 seconds
+0094.019 (0) Table wp_e_events: finishing file(s) (2, 0.4 KB)
+0094.633 (0) Table wp_hustle_entries: Total expected rows (via COUNT): 0
+0094.710 (0) Table wp_hustle_entries: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=703) in 0.10 seconds
+0095.290 (0) Table wp_hustle_entries: finishing file(s) (2, 0.4 KB)
+0096.005 (0) Table wp_hustle_entries_meta: Total expected rows (via COUNT): 0
+0096.572 (0) Table wp_hustle_entries_meta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=896) in 0.69 seconds
+0097.431 (0) Table wp_hustle_entries_meta: finishing file(s) (2, 0.4 KB)
+0097.958 (0) Table wp_hustle_modules: Total expected rows (via COUNT): 1
+0098.033 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0098.279 (0) Table wp_hustle_modules: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=878) in 0.32 seconds
+0098.625 (0) Table wp_hustle_modules: finishing file(s) (2, 0.4 KB)
+0099.006 (0) Table wp_hustle_modules_meta: Total expected rows (via COUNT): 9
+0099.096 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0099.179 (0) Table wp_hustle_modules_meta: Rows added in this batch (next record: 9): 9 (uncompressed bytes in this segment=77653) in 0.39 seconds
+0099.810 (0) Table wp_hustle_modules_meta: finishing file(s) (2, 10.2 KB)
+0099.973 (0) Table wp_hustle_tracking: Total expected rows (via COUNT): 1
+0100.078 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0100.158 (0) Table wp_hustle_tracking: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1339) in 0.19 seconds
+0100.681 (0) Table wp_hustle_tracking: finishing file(s) (2, 0.6 KB)
+0100.972 (0) Table wp_seopress_content_analysis: Total expected rows (via COUNT): 2
+0101.049 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0101.141 (0) Table wp_seopress_content_analysis: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=7473) in 0.27 seconds
+0101.743 (0) Table wp_seopress_content_analysis: finishing file(s) (2, 1.7 KB)
+0101.970 (0) Table wp_wfblockediplog: Total expected rows (approximate): 0
+0102.362 (0) Table wp_wfblockediplog: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=629) in 0.40 seconds
+0102.926 (0) Table wp_wfblockediplog: finishing file(s) (2, 0.4 KB)
+0103.131 (0) Table wp_wfblocks7: Total expected rows (via COUNT): 0
+0103.217 (0) Table wp_wfblocks7: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=811) in 0.09 seconds
+0103.587 (0) Table wp_wfblocks7: finishing file(s) (2, 0.4 KB)
+0103.958 (0) Table wp_wfconfig: Total expected rows (approximate): 220
+0104.037 (0) Table wp_wfconfig: Rows added in this batch (next record: 1000): 220 (uncompressed bytes in this segment=15142) in 0.08 seconds
+0104.379 (0) Table wp_wfconfig: finishing file(s) (2, 3.7 KB)
+0104.628 (0) Table wp_wfcrawlers: Total expected rows (approximate): 0
+0104.704 (0) Table wp_wfcrawlers: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=552) in 0.08 seconds
+0105.117 (0) Table wp_wfcrawlers: finishing file(s) (2, 0.3 KB)
+0105.499 (0) Table wp_wffilechanges: Total expected rows (approximate): 0
+0105.576 (0) Table wp_wffilechanges: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=452) in 0.08 seconds
+0105.845 (0) Table wp_wffilechanges: finishing file(s) (2, 0.3 KB)
+0106.248 (0) Table wp_wffilemods: Total expected rows (approximate): 0
+0106.415 (0) Table wp_wffilemods: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=819) in 0.17 seconds
+0106.705 (0) Table wp_wffilemods: finishing file(s) (2, 0.4 KB)
+0106.932 (0) Table wp_wfhits: Total expected rows (via COUNT): 0
+0107.018 (0) Table wp_wfhits: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=901) in 0.09 seconds
+0107.599 (0) Table wp_wfhits: finishing file(s) (2, 0.5 KB)
+0107.919 (0) Table wp_wfhoover: Total expected rows (via COUNT): 0
+0108.003 (0) Table wp_wfhoover: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=476) in 0.09 seconds
+0108.282 (0) Table wp_wfhoover: finishing file(s) (2, 0.3 KB)
+0108.732 (0) Table wp_wfissues: Total expected rows (via COUNT): 0
+0108.818 (0) Table wp_wfissues: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=804) in 0.09 seconds
+0109.075 (0) Table wp_wfissues: finishing file(s) (2, 0.4 KB)
+0109.312 (0) Table wp_wfknownfilelist: Total expected rows (via COUNT): 0
+0109.588 (0) Table wp_wfknownfilelist: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=465) in 0.28 seconds
+0110.048 (0) Table wp_wfknownfilelist: finishing file(s) (2, 0.3 KB)
+0110.709 (0) Table wp_wflivetraffichuman: Total expected rows (approximate): 0
+0110.784 (0) Table wp_wflivetraffichuman: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=648) in 0.08 seconds
+0111.396 (0) Table wp_wflivetraffichuman: finishing file(s) (2, 0.3 KB)
+0111.968 (0) Table wp_wflocs: Total expected rows (approximate): 0
+0112.054 (0) Table wp_wflocs: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=682) in 0.09 seconds
+0112.957 (0) Table wp_wflocs: finishing file(s) (2, 0.4 KB)
+0113.607 (0) Table wp_wflogins: Total expected rows (via COUNT): 0
+0113.838 (0) Table wp_wflogins: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=681) in 0.23 seconds
+0114.251 (0) Table wp_wflogins: finishing file(s) (2, 0.4 KB)
+0114.813 (0) Table wp_wfls_2fa_secrets: Total expected rows (via COUNT): 0
+0114.977 (0) Table wp_wfls_2fa_secrets: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=681) in 0.17 seconds
+0115.423 (0) Table wp_wfls_2fa_secrets: finishing file(s) (2, 0.4 KB)
+0115.983 (0) Table wp_wfls_role_counts: Total expected rows (approximate): 0
+0116.059 (0) Table wp_wfls_role_counts: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=548) in 0.08 seconds
+0116.615 (0) Table wp_wfls_role_counts: finishing file(s) (2, 0.3 KB)
+0117.000 (0) Table wp_wfls_settings: Total expected rows (approximate): 26
+0117.221 (0) Table wp_wfls_settings: Rows added in this batch (next record: 1000): 26 (uncompressed bytes in this segment=1888) in 0.22 seconds
+0117.900 (0) Table wp_wfls_settings: finishing file(s) (2, 0.9 KB)
+0118.460 (0) Table wp_wfnotifications: Total expected rows (approximate): 0
+0118.714 (0) Table wp_wfnotifications: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=616) in 0.26 seconds
+0119.437 (0) Table wp_wfnotifications: finishing file(s) (2, 0.4 KB)
+0120.491 (0) Table wp_wfpendingissues: Total expected rows (via COUNT): 0
+0120.819 (0) Table wp_wfpendingissues: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=846) in 0.33 seconds
+0121.299 (0) Table wp_wfpendingissues: finishing file(s) (2, 0.4 KB)
+0121.760 (0) Table wp_wfreversecache: Total expected rows (approximate): 0
+0122.002 (0) Table wp_wfreversecache: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=497) in 0.25 seconds
+0122.705 (0) Table wp_wfreversecache: finishing file(s) (2, 0.3 KB)
+0123.143 (0) Table wp_wfsecurityevents: Total expected rows (via COUNT): 0
+0123.474 (0) Table wp_wfsecurityevents: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=678) in 0.33 seconds
+0124.075 (0) Table wp_wfsecurityevents: finishing file(s) (2, 0.4 KB)
+0124.506 (0) Table wp_wfsnipcache: Total expected rows (via COUNT): 0
+0124.801 (0) Table wp_wfsnipcache: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=701) in 0.30 seconds
+0125.204 (0) Table wp_wfsnipcache: finishing file(s) (2, 0.4 KB)
+0125.887 (0) Table wp_wfstatus: Total expected rows (via COUNT): 0
+0126.118 (0) Table wp_wfstatus: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=552) in 0.23 seconds
+0126.664 (0) Table wp_wfstatus: finishing file(s) (2, 0.4 KB)
+0127.046 (0) Table wp_wftrafficrates: Total expected rows (approximate): 0
+0127.144 (0) Table wp_wftrafficrates: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=566) in 0.10 seconds
+0127.848 (0) Table wp_wftrafficrates: finishing file(s) (2, 0.3 KB)
+0128.227 (0) Table wp_wfwaffailures: Total expected rows (via COUNT): 0
+0128.530 (0) Table wp_wfwaffailures: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=527) in 0.31 seconds
+0129.186 (0) Table wp_wfwaffailures: finishing file(s) (2, 0.3 KB)
+0129.867 (0) Table wp_wpforms_logs: Total expected rows (via COUNT): 0
+0130.201 (0) Table wp_wpforms_logs: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=752) in 0.42 seconds
+0132.173 (0) Table wp_wpforms_logs: finishing file(s) (2, 0.4 KB)
+0133.208 (0) Table wp_wpforms_payment_meta: Total expected rows (via COUNT): 0
+0133.621 (0) Table wp_wpforms_payment_meta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=739) in 1.00 seconds
+0134.513 (0) Table wp_wpforms_payment_meta: finishing file(s) (2, 0.4 KB)
+0134.889 (0) Table wp_wpforms_payments: Total expected rows (via COUNT): 0
+0135.508 (0) Table wp_wpforms_payments: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1970) in 0.62 seconds
+0136.299 (0) Table wp_wpforms_payments: finishing file(s) (2, 0.6 KB)
+0137.247 (0) Table wp_wpforms_tasks_meta: Total expected rows (via COUNT): 4
+0137.603 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0137.772 (0) Table wp_wpforms_tasks_meta: Rows added in this batch (next record: 6): 4 (uncompressed bytes in this segment=973) in 0.77 seconds
+0139.010 (0) Table wp_wpforms_tasks_meta: finishing file(s) (2, 0.5 KB)
+0139.110 (0) PHP event: code E_WARNING: filemtime(): stat failed for /home/michy/Local Sites/banana-design/app/public/wp-content/updraft/backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-db.gz (line 1925, wp-content/plugins/updraftplus/backup.php)
+0139.289 (0) backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-db-table-wp_options.table.tmpr1843.gz (1/57/fopen): adding to final database dump
+0139.636 (0) backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-db-table-wp_options.table.gz (2/57/fopen): adding to final database dump
+0139.746 (0) backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-db-table-wp_users.table.tmpr2.gz (3/57/fopen): adding to final database dump
+0140.003 (0) backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-db-table-wp_users.table.gz (4/57/fopen): adding to final database dump
+0140.081 (0) backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-db-table-wp_usermeta.table.tmpr30.gz (5/57/fopen): adding to final database dump
+0140.337 (0) backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-db-table-wp_usermeta.table.gz (6/57/fopen): adding to final database dump
+0140.666 (0) backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-db-table-wp_actionscheduler_actions.table.tmpr604.gz (7/57/fopen): adding to final database dump
+0140.771 (0) backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-db-table-wp_actionscheduler_actions.table.gz (8/57/fopen): adding to final database dump
+0140.994 (0) backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-db-table-wp_actionscheduler_claims.table.tmpr0.gz (9/57/fopen): adding to final database dump
+0141.083 (0) backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-db-table-wp_actionscheduler_claims.table.gz (10/57/fopen): adding to final database dump
+0141.305 (0) backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-db-table-wp_actionscheduler_groups.table.tmpr3.gz (11/57/fopen): adding to final database dump
+0141.651 (0) backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-db-table-wp_actionscheduler_groups.table.gz (12/57/fopen): adding to final database dump
+0141.741 (0) backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-db-table-wp_actionscheduler_logs.table.tmpr42.gz (13/57/fopen): adding to final database dump
+0141.999 (0) backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-db-table-wp_actionscheduler_logs.table.gz (14/57/fopen): adding to final database dump
+0142.077 (0) backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-db-table-wp_commentmeta.table.tmpr0.gz (15/57/fopen): adding to final database dump
+0142.347 (0) backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-db-table-wp_commentmeta.table.gz (16/57/fopen): adding to final database dump
+0142.692 (0) backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-db-table-wp_comments.table.tmpr0.gz (17/57/fopen): adding to final database dump
+0142.948 (0) backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-db-table-wp_comments.table.gz (18/57/fopen): adding to final database dump
+0143.037 (0) backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-db-table-wp_imagify_files.table.tmpr0.gz (19/57/fopen): adding to final database dump
+0143.260 (0) backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-db-table-wp_imagify_files.table.gz (20/57/fopen): adding to final database dump
+0143.605 (0) backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-db-table-wp_imagify_folders.table.tmpr0.gz (21/57/fopen): adding to final database dump
+0143.683 (0) backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-db-table-wp_imagify_folders.table.gz (22/57/fopen): adding to final database dump
+0143.950 (0) backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-db-table-wp_links.table.tmpr0.gz (23/57/fopen): adding to final database dump
+0144.173 (0) backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-db-table-wp_links.table.gz (24/57/fopen): adding to final database dump
+0144.251 (0) backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-db-table-wp_postmeta.table.tmpr2079.gz (25/57/fopen): adding to final database dump
+0144.523 (0) backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-db-table-wp_postmeta.table.gz (26/57/fopen): adding to final database dump
+0144.819 (0) backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-db-table-wp_posts.table.tmpr721.gz (27/57/fopen): adding to final database dump
+0144.922 (0) backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-db-table-wp_posts.table.gz (28/57/fopen): adding to final database dump
+0145.154 (0) backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-db-table-wp_term_relationships.table.tmpr100001.gz (29/57/fopen): adding to final database dump
+0145.245 (0) backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-db-table-wp_term_relationships.table.gz (30/57/fopen): adding to final database dump
+0145.480 (0) backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-db-table-wp_term_taxonomy.table.tmpr10.gz (31/57/fopen): adding to final database dump
+0145.825 (0) backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-db-table-wp_term_taxonomy.table.gz (32/57/fopen): adding to final database dump
+0146.093 (0) backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-db-table-wp_termmeta.table.tmpr0.gz (33/57/fopen): adding to final database dump
+0146.171 (0) backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-db-table-wp_termmeta.table.gz (34/57/fopen): adding to final database dump
+0146.426 (0) backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-db-table-wp_terms.table.tmpr10.gz (35/57/fopen): adding to final database dump
+0146.817 (0) backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-db-table-wp_terms.table.gz (36/57/fopen): adding to final database dump
+0146.906 (0) backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-db-table-wp_blc_filters.table.tmpr0.gz (37/57/fopen): adding to final database dump
+0147.139 (0) backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-db-table-wp_blc_filters.table.gz (38/57/fopen): adding to final database dump
+0147.207 (0) backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-db-table-wp_blc_instances.table.tmpr384.gz (39/57/fopen): adding to final database dump
+0147.500 (0) backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-db-table-wp_blc_instances.table.gz (40/57/fopen): adding to final database dump
+0147.786 (0) backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-db-table-wp_blc_links.table.tmpr35.gz (41/57/fopen): adding to final database dump
+0147.954 (0) backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-db-table-wp_blc_links.table.gz (42/57/fopen): adding to final database dump
+0148.054 (0) backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-db-table-wp_blc_synch.table.tmpr1001.gz (43/57/fopen): adding to final database dump
+0148.133 (0) backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-db-table-wp_blc_synch.table.gz (44/57/fopen): adding to final database dump
+0148.355 (0) backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-db-table-wp_e_events.table.tmpr0.gz (45/57/fopen): adding to final database dump
+0148.500 (0) backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-db-table-wp_e_events.table.gz (46/57/fopen): adding to final database dump
+0148.600 (0) backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-db-table-wp_hustle_entries.table.tmpr0.gz (47/57/fopen): adding to final database dump
+0148.692 (0) backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-db-table-wp_hustle_entries.table.gz (48/57/fopen): adding to final database dump
+0148.770 (0) backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-db-table-wp_hustle_entries_meta.table.tmpr0.gz (49/57/fopen): adding to final database dump
+0148.870 (0) backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-db-table-wp_hustle_entries_meta.table.gz (50/57/fopen): adding to final database dump
+0148.971 (0) backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-db-table-wp_hustle_modules.table.tmpr2.gz (51/57/fopen): adding to final database dump
+0149.049 (0) backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-db-table-wp_hustle_modules.table.gz (52/57/fopen): adding to final database dump
+0149.138 (0) backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-db-table-wp_hustle_modules_meta.table.tmpr10.gz (53/57/fopen): adding to final database dump
+0149.217 (0) backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-db-table-wp_hustle_modules_meta.table.gz (54/57/fopen): adding to final database dump
+0149.541 (0) backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-db-table-wp_hustle_tracking.table.tmpr2.gz (55/57/fopen): adding to final database dump
+0149.640 (0) backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-db-table-wp_hustle_tracking.table.gz (56/57/fopen): adding to final database dump
+0149.707 (0) backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-db-table-wp_seopress_content_analysis.table.tmpr3.gz (57/57/fopen): adding to final database dump
+0149.785 (0) backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-db-table-wp_seopress_content_analysis.table.gz (58/57/fopen): adding to final database dump
+0149.875 (0) backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-db-table-wp_wfblockediplog.table.tmpr1.gz (59/57/fopen): adding to final database dump
+0149.975 (0) backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-db-table-wp_wfblockediplog.table.gz (60/57/fopen): adding to final database dump
+0150.054 (0) backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-db-table-wp_wfblocks7.table.tmpr0.gz (61/57/fopen): adding to final database dump
+0150.133 (0) backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-db-table-wp_wfblocks7.table.gz (62/57/fopen): adding to final database dump
+0150.255 (0) backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-db-table-wp_wfconfig.table.tmpr1001.gz (63/57/fopen): adding to final database dump
+0150.601 (0) backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-db-table-wp_wfconfig.table.gz (64/57/fopen): adding to final database dump
+0150.689 (0) backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-db-table-wp_wfcrawlers.table.tmpr1.gz (65/57/fopen): adding to final database dump
+0150.779 (0) backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-db-table-wp_wfcrawlers.table.gz (66/57/fopen): adding to final database dump
+0150.857 (0) backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-db-table-wp_wffilechanges.table.tmpr1.gz (67/57/fopen): adding to final database dump
+0150.980 (0) backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-db-table-wp_wffilechanges.table.gz (68/57/fopen): adding to final database dump
+0151.058 (0) backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-db-table-wp_wffilemods.table.tmpr1.gz (69/57/fopen): adding to final database dump
+0151.138 (0) backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-db-table-wp_wffilemods.table.gz (70/57/fopen): adding to final database dump
+0151.216 (0) backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-db-table-wp_wfhits.table.tmpr0.gz (71/57/fopen): adding to final database dump
+0151.316 (0) backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-db-table-wp_wfhits.table.gz (72/57/fopen): adding to final database dump
+0151.473 (0) backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-db-table-wp_wfhoover.table.tmpr0.gz (73/57/fopen): adding to final database dump
+0151.707 (0) backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-db-table-wp_wfhoover.table.gz (74/57/fopen): adding to final database dump
+0151.774 (0) backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-db-table-wp_wfissues.table.tmpr0.gz (75/57/fopen): adding to final database dump
+0151.852 (0) backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-db-table-wp_wfissues.table.gz (76/57/fopen): adding to final database dump
+0151.964 (0) backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-db-table-wp_wfknownfilelist.table.tmpr0.gz (77/57/fopen): adding to final database dump
+0152.042 (0) backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-db-table-wp_wfknownfilelist.table.gz (78/57/fopen): adding to final database dump
+0152.120 (0) backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-db-table-wp_wflivetraffichuman.table.tmpr1.gz (79/57/fopen): adding to final database dump
+0152.198 (0) backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-db-table-wp_wflivetraffichuman.table.gz (80/57/fopen): adding to final database dump
+0152.288 (0) backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-db-table-wp_wflocs.table.tmpr1.gz (81/57/fopen): adding to final database dump
+0152.445 (0) backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-db-table-wp_wflocs.table.gz (82/57/fopen): adding to final database dump
+0152.579 (0) backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-db-table-wp_wflogins.table.tmpr0.gz (83/57/fopen): adding to final database dump
+0152.824 (0) backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-db-table-wp_wflogins.table.gz (84/57/fopen): adding to final database dump
+0152.924 (0) backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-db-table-wp_wfls_2fa_secrets.table.tmpr0.gz (85/57/fopen): adding to final database dump
+0153.025 (0) backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-db-table-wp_wfls_2fa_secrets.table.gz (86/57/fopen): adding to final database dump
+0153.103 (0) backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-db-table-wp_wfls_role_counts.table.tmpr1.gz (87/57/fopen): adding to final database dump
+0153.192 (0) backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-db-table-wp_wfls_role_counts.table.gz (88/57/fopen): adding to final database dump
+0153.281 (0) backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-db-table-wp_wfls_settings.table.tmpr1001.gz (89/57/fopen): adding to final database dump
+0153.471 (0) backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-db-table-wp_wfls_settings.table.gz (90/57/fopen): adding to final database dump
+0153.585 (0) backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-db-table-wp_wfnotifications.table.tmpr1.gz (91/57/fopen): adding to final database dump
+0153.652 (0) backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-db-table-wp_wfnotifications.table.gz (92/57/fopen): adding to final database dump
+0153.730 (0) backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-db-table-wp_wfpendingissues.table.tmpr0.gz (93/57/fopen): adding to final database dump
+0153.942 (0) backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-db-table-wp_wfpendingissues.table.gz (94/57/fopen): adding to final database dump
+0154.087 (0) backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-db-table-wp_wfreversecache.table.tmpr1.gz (95/57/fopen): adding to final database dump
+0154.166 (0) backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-db-table-wp_wfreversecache.table.gz (96/57/fopen): adding to final database dump
+0154.244 (0) backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-db-table-wp_wfsecurityevents.table.tmpr0.gz (97/57/fopen): adding to final database dump
+0154.411 (0) backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-db-table-wp_wfsecurityevents.table.gz (98/57/fopen): adding to final database dump
+0154.544 (0) backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-db-table-wp_wfsnipcache.table.tmpr0.gz (99/57/fopen): adding to final database dump
+0154.724 (0) backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-db-table-wp_wfsnipcache.table.gz (100/57/fopen): adding to final database dump
+0155.324 (0) backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-db-table-wp_wfstatus.table.tmpr0.gz (101/57/fopen): adding to final database dump
+0155.492 (0) backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-db-table-wp_wfstatus.table.gz (102/57/fopen): adding to final database dump
+0155.570 (0) backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-db-table-wp_wftrafficrates.table.tmpr1.gz (103/57/fopen): adding to final database dump
+0155.659 (0) backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-db-table-wp_wftrafficrates.table.gz (104/57/fopen): adding to final database dump
+0155.737 (0) backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-db-table-wp_wfwaffailures.table.tmpr0.gz (105/57/fopen): adding to final database dump
+0155.816 (0) backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-db-table-wp_wfwaffailures.table.gz (106/57/fopen): adding to final database dump
+0155.894 (0) backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-db-table-wp_wpforms_logs.table.tmpr0.gz (107/57/fopen): adding to final database dump
+0156.017 (0) backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-db-table-wp_wpforms_logs.table.gz (108/57/fopen): adding to final database dump
+0156.095 (0) backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-db-table-wp_wpforms_payment_meta.table.tmpr0.gz (109/57/fopen): adding to final database dump
+0156.420 (0) backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-db-table-wp_wpforms_payment_meta.table.gz (110/57/fopen): adding to final database dump
+0156.531 (0) backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-db-table-wp_wpforms_payments.table.tmpr0.gz (111/57/fopen): adding to final database dump
+0156.610 (0) backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-db-table-wp_wpforms_payments.table.gz (112/57/fopen): adding to final database dump
+0156.710 (0) backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-db-table-wp_wpforms_tasks_meta.table.tmpr7.gz (113/57/fopen): adding to final database dump
+0156.789 (0) backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-db-table-wp_wpforms_tasks_meta.table.gz (114/57/fopen): adding to final database dump
+0156.966 (0) backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-db.gz: finished writing out complete database file (477.4 KB)
+0157.593 (0) Total database tables backed up: 57 (backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-db.gz, size: 489012, sha1: 618fb1fb52853f45a779916ed600b4326953e958, sha256: b2561342f12a117f3108668b224f3c544be5428206f277305b16a36705adac7d)
+0157.973 (0) backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-plugins.zip: plugins: This file has already been successfully uploaded
+0158.073 (0) backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-themes.zip: themes: This file has already been successfully uploaded
+0158.151 (0) backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-uploads.zip: uploads: This file has already been successfully uploaded
+0158.430 (0) backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-others.zip: others: This file has already been successfully uploaded
+0159.075 (0) backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-db.gz: db: This file has not yet been successfully uploaded: will queue
+0159.189 (0) Saving backup history. Total backup size: 99.8 MB
+0159.801 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0160.448 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0160.671 (0) No remote despatch: user chose no remote backup service
+0160.760 (0) Recording as successfully uploaded: backup_2024-06-25-1622_Agence_Wordpress_Banana_design_16c41e3bc486-db.gz
+0161.595 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0161.830 (0) Number of backup sets in history: 3; groups (db): 1
+0161.918 (0) Examining (for databases) backup set with group_id=0, nonce=16c41e3bc486, datestamp=1719328932 (Jun 25 2024 15:22:12)
+0162.140 (0) This backup set is the backup set just made, so will not be deleted.
+0162.140 (0) Examining (for databases) backup set with group_id=0, nonce=993bc031422a, datestamp=1719299054 (Jun 25 2024 07:04:14)
+0162.140 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0162.396 (0) Examining (for databases) backup set with group_id=0, nonce=e39786d7b664, datestamp=1719251935 (Jun 24 2024 17:58:55)
+0162.396 (0) 1719251935: db: this set includes a database (backup_2024-06-24-1858_Agence_Wordpress_Banana_design_e39786d7b664-db.gz); db count is now 2
+0162.396 (0) 1719251935: db: over retain limit (2); will delete this database
+0162.396 (0) Delete file: backup_2024-06-24-1858_Agence_Wordpress_Banana_design_e39786d7b664-db.gz, service=none
+0162.753 (0) Deleting local copy (backup_2024-06-24-1858_Agence_Wordpress_Banana_design_e39786d7b664-db.gz)
+0163.077 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0163.301 (0) Number of backup sets in history: 3; groups (files): 1
+0164.602 (0) Examining (for files) backup set with nonce=16c41e3bc486, datestamp=1719328932 (Jun 25 2024 15:22:12)
+0164.602 (0) This backup set is the backup set just made, so will not be deleted.
+0165.048 (0) This backup set is the backup set just made, so will not be deleted.
+0165.126 (0) This backup set is the backup set just made, so will not be deleted.
+0165.127 (0) This backup set is the backup set just made, so will not be deleted.
+0165.127 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0165.405 (0) Examining (for files) backup set with nonce=993bc031422a, datestamp=1719299054 (Jun 25 2024 07:04:14)
+0165.405 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0165.406 (0) Examining (for files) backup set with nonce=e39786d7b664, datestamp=1719251935 (Jun 24 2024 17:58:55)
+0165.406 (0) plugins: over retain limit (2); will delete this file entity
+0165.406 (0) themes: over retain limit (2); will delete this file entity
+0165.406 (0) uploads: over retain limit (2); will delete this file entity
+0165.406 (0) others: over retain limit (2); will delete this file entity
+0165.406 (0) Delete file: backup_2024-06-24-1858_Agence_Wordpress_Banana_design_e39786d7b664-plugins.zip, service=none
+0165.750 (0) Deleting local copy (backup_2024-06-24-1858_Agence_Wordpress_Banana_design_e39786d7b664-plugins.zip)
+0166.013 (0) Delete file: backup_2024-06-24-1858_Agence_Wordpress_Banana_design_e39786d7b664-themes.zip, service=none
+0166.118 (0) Deleting local copy (backup_2024-06-24-1858_Agence_Wordpress_Banana_design_e39786d7b664-themes.zip)
+0166.440 (0) Delete file: backup_2024-06-24-1858_Agence_Wordpress_Banana_design_e39786d7b664-uploads.zip, service=none
+0166.664 (0) Deleting local copy (backup_2024-06-24-1858_Agence_Wordpress_Banana_design_e39786d7b664-uploads.zip)
+0166.896 (0) Delete file: backup_2024-06-24-1858_Agence_Wordpress_Banana_design_e39786d7b664-others.zip, service=none
+0167.155 (0) Deleting local copy (backup_2024-06-24-1858_Agence_Wordpress_Banana_design_e39786d7b664-others.zip)
+0167.581 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0167.837 (0) Retain: saving new backup history (sets now: 3) and finishing retain operation
+0168.472 (0) Resume backup (16c41e3bc486, 0): finish run
+0169.029 (0) Decremented the semaphore (fd) by 1
+0169.552 (0) Semaphore (fd) unlocked
+0169.630 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0170.501 (0) The backup succeeded and is now complete
+0170.612 (0) No email will/can be sent - the user has not configured an email address.
+0170.879 (0) La sauvegarde a réussi et est maintenant terminée

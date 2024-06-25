@@ -1,0 +1,37 @@
+[20-Jun-2024 11:36:36] NOTICE: fpm is running, pid 2835130
+[20-Jun-2024 11:36:36] NOTICE: ready to handle connections
+[23-Jun-2024 08:48:49] NOTICE: fpm is running, pid 57761
+[23-Jun-2024 08:48:49] NOTICE: ready to handle connections
+[23-Jun-2024 08:49:25] NOTICE: Terminating ...
+[23-Jun-2024 08:49:25] NOTICE: Terminating ...
+[23-Jun-2024 08:49:25] NOTICE: exiting, bye-bye!
+[23-Jun-2024 08:49:27] NOTICE: fpm is running, pid 58488
+[23-Jun-2024 08:49:27] NOTICE: ready to handle connections
+[24-Jun-2024 10:04:11] NOTICE: fpm is running, pid 13430
+[24-Jun-2024 10:04:11] NOTICE: ready to handle connections
+[24-Jun-2024 14:47:59] NOTICE: fpm is running, pid 7996
+[24-Jun-2024 14:47:59] NOTICE: ready to handle connections
+[24-Jun-2024 14:48:11] NOTICE: Terminating ...
+[24-Jun-2024 14:48:11] NOTICE: Terminating ...
+[24-Jun-2024 14:48:11] NOTICE: exiting, bye-bye!
+[24-Jun-2024 14:48:13] NOTICE: fpm is running, pid 8261
+[24-Jun-2024 14:48:13] NOTICE: ready to handle connections
+[24-Jun-2024 15:18:37] NOTICE: Terminating ...
+[24-Jun-2024 15:36:04] NOTICE: fpm is running, pid 7772
+[24-Jun-2024 15:36:04] NOTICE: ready to handle connections
+[24-Jun-2024 15:36:16] NOTICE: Terminating ...
+[24-Jun-2024 15:36:16] NOTICE: Terminating ...
+[24-Jun-2024 15:36:16] NOTICE: exiting, bye-bye!
+[24-Jun-2024 15:36:18] NOTICE: fpm is running, pid 7992
+[24-Jun-2024 15:36:18] NOTICE: ready to handle connections
+[24-Jun-2024 19:00:13] WARNING: [pool www] child 7997 said into stderr: "mysqldump: Got error: 2002: "Can't connect to local server through socket '/run/mysqld/mysqld.sock' (2)" when trying to connect"
+[24-Jun-2024 19:00:13] WARNING: [pool www] child 7997 said into stderr: "mysqldump: Got error: 2002: "Can't connect to local server through socket '/run/mysqld/mysqld.sock' (2)" when trying to connect"
+[25-Jun-2024 08:04:59] WARNING: [pool www] child 7998 said into stderr: "mysqldump: Got error: 2002: "Can't connect to local server through socket '/run/mysqld/mysqld.sock' (2)" when trying to connect"
+[25-Jun-2024 08:05:00] WARNING: [pool www] child 7998 said into stderr: "mysqldump: Got error: 2002: "Can't connect to local server through socket '/run/mysqld/mysqld.sock' (2)" when trying to connect"
+[25-Jun-2024 14:30:37] NOTICE: Terminating ...
+[25-Jun-2024 14:30:37] NOTICE: Terminating ...
+[25-Jun-2024 14:30:37] NOTICE: exiting, bye-bye!
+[25-Jun-2024 14:30:44] NOTICE: fpm is running, pid 382154
+[25-Jun-2024 14:30:44] NOTICE: ready to handle connections
+[25-Jun-2024 16:23:14] WARNING: [pool www] child 382160 said into stderr: "mysqldump: Got error: 2002: "Can't connect to local server through socket '/run/mysqld/mysqld.sock' (2)" when trying to connect"
+[25-Jun-2024 16:23:14] WARNING: [pool www] child 382160 said into stderr: "mysqldump: Got error: 2002: "Can't connect to local server through socket '/run/mysqld/mysqld.sock' (2)" when trying to connect"

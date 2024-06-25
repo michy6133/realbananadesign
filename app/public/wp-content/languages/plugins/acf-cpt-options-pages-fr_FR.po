@@ -1,0 +1,72 @@
+# Translation of Plugins - Advanced Custom Fields : CPT Options Pages - Development (trunk) in French (France)
+# This file is distributed under the same license as the Plugins - Advanced Custom Fields : CPT Options Pages - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2019-05-24 13:18:07+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/4.0.0-alpha.4\n"
+"Language: fr\n"
+"Project-Id-Version: Plugins - Advanced Custom Fields : CPT Options Pages - Development (trunk)\n"
+
+#: tpl-settings-page.php:64
+msgid "Buy me a beer"
+msgstr "Payez-moi une bière"
+
+#. Author URI of the plugin
+msgid "https://frontend.im/"
+msgstr "https://frontend.im/"
+
+#. Author of the plugin
+msgid "Tusko Trush"
+msgstr "Tusko Trush"
+
+#. Description of the plugin
+msgid "Enables ACF options pages for a post type archive."
+msgstr "Active les pages d'options ACF pour l’archive d’un type de publication."
+
+#. Plugin URI of the plugin
+msgid "https://wordpress.org/plugins/acf-cpt-options-pages/"
+msgstr "https://fr.wordpress.org/plugins/acf-cpt-options-pages/"
+
+#. Plugin Name of the plugin
+msgid "Advanced Custom Fields : CPT Options Pages"
+msgstr "Advanced Custom Fields : CPT Options Pages"
+
+#: tpl-settings-page.php:66
+msgid "No Custom Post Types found."
+msgstr "Aucun type de publication personnalisé trouvé."
+
+#: tpl-settings-page.php:56
+msgid "Page ID"
+msgstr "ID de la page"
+
+#: tpl-settings-page.php:26
+msgid "Choose post types to enable options page"
+msgstr "Choisir les types de publication personnalisés sur lesquels activer les pages d’options"
+
+#: tpl-settings-page.php:25 tpl-settings-page.php:54
+msgid "Subpage Name"
+msgstr "Nom de la sous-page"
+
+#: class.acf-cpt-options-pages.php:64
+msgid "%s Options"
+msgstr "%s options"
+
+#: class.acf-cpt-options-pages.php:110
+msgid "CPT Options Pages"
+msgstr "Pages d’options CPT"
+
+#: class.acf-cpt-options-pages.php:102
+msgid "Documentation"
+msgstr "Documentation"
+
+#: class.acf-cpt-options-pages.php:101
+msgid "Settings"
+msgstr "Réglages"
+
+#: class.acf-cpt-options-pages.php:93
+msgid "Admin Error Notice"
+msgstr "Notification d’erreur dans l’administration"

@@ -1,0 +1,867 @@
+0000.000 (0) Opened log file at time: Tue, 25 Jun 2024 07:04:14 +0000 on http://localhost:10003
+0000.090 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.24.3 WP: 6.5.4 PHP: 8.1.23 (fpm-fcgi, Linux kali 6.8.11-amd64 #1 SMP PREEMPT_DYNAMIC Kali 6.8.11-1kali2 (2024-05-30) x86_64) MySQL: 8.0.16 (max packet size=16777216) WPLANG: fr_FR Server: nginx/1.16.0 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 8M | 10M) multisite: N openssl: OpenSSL 1.1.1f  31 Mar 2020 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.167 (0) Free space on disk containing Updraft's temporary directory: 205684.4 MB
+0000.258 (0) Tasks: Backup files: 1 (schedule: daily) Backup DB:  (schedule: daily)
+0000.335 (0) Processed schedules. Combining jobs from identical schedules. Tasks now: Backup files: 1 Backup DB: 1
+0000.524 (0) Requesting semaphore lock (fd) (apparently via scheduler: last_scheduled_action_called_at=1719251935, seconds_ago=47120)
+0000.848 (0) Set semaphore last lock (fd) time to 2024-06-25 07:04:15
+0000.959 (0) Semaphore lock (fd) complete
+0001.216 (0) Backup run: resumption=0, nonce=993bc031422a, file_nonce=993bc031422a begun at=1719299054 (1s ago), job type=backup
+0001.394 (0) Scheduling a resumption (1) after 300 seconds (1719299356) in case this run gets aborted
+0001.576 (0) Checking if we have a zip executable available
+0001.698 (0) Testing: /usr/bin/zip
+0001.780 (0) Output: zip warning: binziptest/test.zip not found or empty
+0001.877 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0001.955 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0002.067 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0002.156 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0002.244 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0002.346 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0002.426 (0) Working binary zip found: /usr/bin/zip
+0002.592 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0002.681 (0) Creation of backups of directories: beginning
+0002.927 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0003.297 (0) Total entities for the zip file: 1908 directories, 8568 files (0 skipped as non-modified), 161.3 MB
+0003.387 (0) Zip: backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0003.476 (0) Zip: backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0003.565 (0) Zip: backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0003.655 (0) Zip: backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0003.724 (0) Zip: backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0003.792 (0) Zip: backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-plugins.zip.tmp: 600 files added (on-disk size: 0 KB)
+0003.858 (0) Zip: backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-plugins.zip.tmp: 700 files added (on-disk size: 0 KB)
+0003.926 (0) Zip: backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-plugins.zip.tmp: 800 files added (on-disk size: 0 KB)
+0003.992 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (25.4 MB, 8568 files batched, 869 (869) added so far); re-opening (prior size: 0 KB)
+0005.502 (0) backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-plugins.zip.tmp: size is now: 8.10 MB
+0005.681 (0) A useful amount of data was added after this amount of zip processing: 3.4 s (normalised: 3.3 s, rate: 7729.2 KB/s)
+0005.837 (0) Performance is good - will increase the amount of data we attempt to batch (time=3.3694820404053, normalised_time=3.3121028255726, max_time=5.7581880092621, data points known=1, old_max_bytes=26214400, new_max_bytes=47488380)
+0006.028 (0) Zip: backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-plugins.zip.tmp: 900 files added (on-disk size: 8328 KB)
+0006.120 (0) Zip: backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-plugins.zip.tmp: 1000 files added (on-disk size: 8328 KB)
+0006.209 (0) Zip: backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-plugins.zip.tmp: 1100 files added (on-disk size: 8328 KB)
+0006.298 (0) Zip: backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-plugins.zip.tmp: 1200 files added (on-disk size: 8328 KB)
+0006.387 (0) Zip: backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-plugins.zip.tmp: 1300 files added (on-disk size: 8328 KB)
+0006.477 (0) Zip: backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-plugins.zip.tmp: 1400 files added (on-disk size: 8328 KB)
+0006.577 (0) Zip: backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-plugins.zip.tmp: 1500 files added (on-disk size: 8328 KB)
+0006.664 (0) Zip: backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-plugins.zip.tmp: 1600 files added (on-disk size: 8328 KB)
+0006.754 (0) Zip: backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-plugins.zip.tmp: 1700 files added (on-disk size: 8328 KB)
+0006.845 (0) Zip: backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-plugins.zip.tmp: 1800 files added (on-disk size: 8328 KB)
+0006.933 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (31.3 MB, 8568 files batched, 1001 (1870) added so far); re-opening (prior size: 8328 KB)
+0008.078 (0) PHP event: code E_WARNING: filesize(): stat failed for /home/michy/Local Sites/banana-design/app/public/wp-content/updraft/backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-plugins.zip.tmp (line 506, wp-content/plugins/updraftplus/includes/class-zip.php)
+0008.154 (0) backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-plugins.zip.tmp: size is now: 15.60 MB
+0008.302 (0) Zip: backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-plugins.zip.tmp: 1900 files added (on-disk size: 15961 KB)
+0008.372 (0) Zip: backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-plugins.zip.tmp: 2000 files added (on-disk size: 15961 KB)
+0008.450 (0) Zip: backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-plugins.zip.tmp: 2100 files added (on-disk size: 15961 KB)
+0008.538 (0) Zip: backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-plugins.zip.tmp: 2200 files added (on-disk size: 15961 KB)
+0008.617 (0) Zip: backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-plugins.zip.tmp: 2300 files added (on-disk size: 15961 KB)
+0008.706 (0) Zip: backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-plugins.zip.tmp: 2400 files added (on-disk size: 15961 KB)
+0008.796 (0) Zip: backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-plugins.zip.tmp: 2500 files added (on-disk size: 15961 KB)
+0008.918 (0) Zip: backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-plugins.zip.tmp: 2600 files added (on-disk size: 15961 KB)
+0009.086 (0) Zip: backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-plugins.zip.tmp: 2700 files added (on-disk size: 15961 KB)
+0009.175 (0) Zip: backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-plugins.zip.tmp: 2800 files added (on-disk size: 15961 KB)
+0009.263 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (16.8 MB, 8568 files batched, 1001 (2871) added so far); re-opening (prior size: 15961 KB)
+0010.029 (0) backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-plugins.zip.tmp: size is now: 19.50 MB
+0010.209 (0) Zip: backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-plugins.zip.tmp: 2900 files added (on-disk size: 19975.1 KB)
+0010.300 (0) Zip: backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-plugins.zip.tmp: 3000 files added (on-disk size: 19975.1 KB)
+0010.389 (0) Zip: backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-plugins.zip.tmp: 3100 files added (on-disk size: 19975.1 KB)
+0010.479 (0) Zip: backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-plugins.zip.tmp: 3200 files added (on-disk size: 19975.1 KB)
+0010.568 (0) Zip: backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-plugins.zip.tmp: 3300 files added (on-disk size: 19975.1 KB)
+0010.677 (0) Zip: backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-plugins.zip.tmp: 3400 files added (on-disk size: 19975.1 KB)
+0010.757 (0) Zip: backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-plugins.zip.tmp: 3500 files added (on-disk size: 19975.1 KB)
+0010.902 (0) Zip: backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-plugins.zip.tmp: 3600 files added (on-disk size: 19975.1 KB)
+0011.059 (0) Zip: backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-plugins.zip.tmp: 3700 files added (on-disk size: 19975.1 KB)
+0011.281 (0) Zip: backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-plugins.zip.tmp: 3800 files added (on-disk size: 19975.1 KB)
+0011.370 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (22.8 MB, 8568 files batched, 1001 (3872) added so far); re-opening (prior size: 19975.1 KB)
+0012.498 (0) backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-plugins.zip.tmp: size is now: 26.90 MB
+0012.739 (0) Zip: backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-plugins.zip.tmp: 3900 files added (on-disk size: 27517.2 KB)
+0012.830 (0) Zip: backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-plugins.zip.tmp: 4000 files added (on-disk size: 27517.2 KB)
+0012.931 (0) Zip: backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-plugins.zip.tmp: 4100 files added (on-disk size: 27517.2 KB)
+0013.109 (0) Zip: backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-plugins.zip.tmp: 4200 files added (on-disk size: 27517.2 KB)
+0013.232 (0) Zip: backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-plugins.zip.tmp: 4300 files added (on-disk size: 27517.2 KB)
+0013.321 (0) Zip: backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-plugins.zip.tmp: 4400 files added (on-disk size: 27517.2 KB)
+0013.410 (0) Zip: backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-plugins.zip.tmp: 4500 files added (on-disk size: 27517.2 KB)
+0013.497 (0) Zip: backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-plugins.zip.tmp: 4600 files added (on-disk size: 27517.2 KB)
+0013.587 (0) Zip: backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-plugins.zip.tmp: 4700 files added (on-disk size: 27517.2 KB)
+0013.676 (0) Zip: backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-plugins.zip.tmp: 4800 files added (on-disk size: 27517.2 KB)
+0013.765 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (15.4 MB, 8568 files batched, 1001 (4873) added so far); re-opening (prior size: 27517.2 KB)
+0014.334 (0) backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-plugins.zip.tmp: size is now: 32.80 MB
+0014.534 (0) Zip: backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-plugins.zip.tmp: 4900 files added (on-disk size: 33580.9 KB)
+0014.626 (0) Zip: backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-plugins.zip.tmp: 5000 files added (on-disk size: 33580.9 KB)
+0014.691 (0) Zip: backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-plugins.zip.tmp: 5100 files added (on-disk size: 33580.9 KB)
+0014.759 (0) Zip: backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-plugins.zip.tmp: 5200 files added (on-disk size: 33580.9 KB)
+0014.827 (0) Zip: backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-plugins.zip.tmp: 5300 files added (on-disk size: 33580.9 KB)
+0014.960 (0) Zip: backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-plugins.zip.tmp: 5400 files added (on-disk size: 33580.9 KB)
+0015.073 (0) Zip: backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-plugins.zip.tmp: 5500 files added (on-disk size: 33580.9 KB)
+0015.187 (0) Zip: backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-plugins.zip.tmp: 5600 files added (on-disk size: 33580.9 KB)
+0015.298 (0) Zip: backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-plugins.zip.tmp: 5700 files added (on-disk size: 33580.9 KB)
+0015.398 (0) Zip: backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-plugins.zip.tmp: 5800 files added (on-disk size: 33580.9 KB)
+0015.631 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (6 MB, 8568 files batched, 1001 (5874) added so far); re-opening (prior size: 33580.9 KB)
+0016.142 (0) Zip: backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-plugins.zip.tmp: 5900 files added (on-disk size: 35355.3 KB)
+0016.268 (0) Zip: backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-plugins.zip.tmp: 6000 files added (on-disk size: 35355.3 KB)
+0016.379 (0) Zip: backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-plugins.zip.tmp: 6100 files added (on-disk size: 35355.3 KB)
+0016.513 (0) Zip: backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-plugins.zip.tmp: 6200 files added (on-disk size: 35355.3 KB)
+0016.780 (0) Zip: backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-plugins.zip.tmp: 6300 files added (on-disk size: 35355.3 KB)
+0016.859 (0) Zip: backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-plugins.zip.tmp: 6400 files added (on-disk size: 35355.3 KB)
+0017.081 (0) Zip: backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-plugins.zip.tmp: 6500 files added (on-disk size: 35355.3 KB)
+0017.182 (0) Zip: backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-plugins.zip.tmp: 6600 files added (on-disk size: 35355.3 KB)
+0017.248 (0) Zip: backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-plugins.zip.tmp: 6700 files added (on-disk size: 35355.3 KB)
+0017.315 (0) Zip: backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-plugins.zip.tmp: 6800 files added (on-disk size: 35355.3 KB)
+0017.382 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (20.5 MB, 8568 files batched, 1001 (6875) added so far); re-opening (prior size: 35355.3 KB)
+0018.372 (0) backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-plugins.zip.tmp: size is now: 41.70 MB
+0018.793 (0) Zip: backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-plugins.zip.tmp: 6900 files added (on-disk size: 42668.8 KB)
+0018.885 (0) Zip: backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-plugins.zip.tmp: 7000 files added (on-disk size: 42668.8 KB)
+0019.199 (0) Zip: backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-plugins.zip.tmp: 7100 files added (on-disk size: 42668.8 KB)
+0019.288 (0) Zip: backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-plugins.zip.tmp: 7200 files added (on-disk size: 42668.8 KB)
+0019.411 (0) Zip: backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-plugins.zip.tmp: 7300 files added (on-disk size: 42668.8 KB)
+0019.501 (0) Zip: backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-plugins.zip.tmp: 7400 files added (on-disk size: 42668.8 KB)
+0019.590 (0) Zip: backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-plugins.zip.tmp: 7500 files added (on-disk size: 42668.8 KB)
+0019.676 (0) Zip: backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-plugins.zip.tmp: 7600 files added (on-disk size: 42668.8 KB)
+0019.768 (0) Zip: backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-plugins.zip.tmp: 7700 files added (on-disk size: 42668.8 KB)
+0019.857 (0) Zip: backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-plugins.zip.tmp: 7800 files added (on-disk size: 42668.8 KB)
+0020.068 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (7.2 MB, 8568 files batched, 1001 (7876) added so far); re-opening (prior size: 42668.8 KB)
+0020.667 (0) Zip: backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-plugins.zip.tmp: 7900 files added (on-disk size: 46288.3 KB)
+0020.737 (0) Zip: backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-plugins.zip.tmp: 8000 files added (on-disk size: 46288.3 KB)
+0020.804 (0) Zip: backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-plugins.zip.tmp: 8100 files added (on-disk size: 46288.3 KB)
+0020.893 (0) Zip: backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-plugins.zip.tmp: 8200 files added (on-disk size: 46288.3 KB)
+0021.050 (0) Zip: backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-plugins.zip.tmp: 8300 files added (on-disk size: 46288.3 KB)
+0021.139 (0) Zip: backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-plugins.zip.tmp: 8400 files added (on-disk size: 46288.3 KB)
+0021.206 (0) Zip: backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-plugins.zip.tmp: 8500 files added (on-disk size: 46288.3 KB)
+0022.740 (0) Creating zip file manifest (backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-plugins.zip.list-temp.tmp)
+0023.020 (0) Successfully created zip file manifest (size: 714273)
+0024.543 (0) Created plugins zip (0) - 51085.7 KB in 21.4 s (2390.5 KB/s) (sha1: 090d2956ff445651c8219290771d36e9e8b6ff8c, sha256: f8f1c3168fc36eb077ba79d611936cbd074e5e85f42b8a70038c40652f6de981)
+0024.800 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0025.068 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-b7bd9630d3c3b535e862127e4d886469)
+0025.135 (0) Google Drive: this account is not authorised
+0025.202 (0) An error condition has occurred for the first time during this job
+0025.414 (0) Beginning creation of dump of themes (split every: 400 MB)
+0025.627 (0) Total entities for the zip file: 192 directories, 1407 files (0 skipped as non-modified), 38.2 MB
+0025.718 (0) Zip: backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0025.798 (0) Zip: backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0025.976 (0) Zip: backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0026.099 (0) Zip: backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0026.188 (0) Zip: backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0026.278 (0) Zip: backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-themes.zip.tmp: 600 files added (on-disk size: 0 KB)
+0026.367 (0) Zip: backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-themes.zip.tmp: 700 files added (on-disk size: 0 KB)
+0026.458 (0) Zip: backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-themes.zip.tmp: 800 files added (on-disk size: 0 KB)
+0026.537 (0) Zip: backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-themes.zip.tmp: 900 files added (on-disk size: 0 KB)
+0026.637 (0) Zip: backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-themes.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0026.711 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (25.7 MB, 1407 files batched, 1001 (1001) added so far); re-opening (prior size: 0 KB)
+0027.904 (0) backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-themes.zip.tmp: size is now: 18.10 MB
+0028.474 (0) Zip: backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-themes.zip.tmp: 1100 files added (on-disk size: 18511.3 KB)
+0028.630 (0) Zip: backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-themes.zip.tmp: 1200 files added (on-disk size: 18511.3 KB)
+0028.730 (0) Zip: backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-themes.zip.tmp: 1300 files added (on-disk size: 18511.3 KB)
+0028.819 (0) Zip: backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-themes.zip.tmp: 1400 files added (on-disk size: 18511.3 KB)
+0029.267 (0) backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-themes.zip.tmp: size is now: 21.90 MB
+0029.532 (0) Creating zip file manifest (backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-themes.zip.list-temp.tmp)
+0029.699 (0) Successfully created zip file manifest (size: 100367)
+0030.357 (0) Created themes zip (0) - 22391.8 KB in 4.8 s (4679.4 KB/s) (sha1: 379adea3c20deab1eaf9ab3d7735210781ac1919, sha256: 0eb25968513b2a8d17424cc4c74530dc5bc8b43c002b060864dd1aa0775b2df9)
+0030.514 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0030.581 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-b7bd9630d3c3b535e862127e4d886469)
+0030.792 (0) Google Drive: this account is not authorised
+0031.205 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0031.295 (0) Looking for candidates to backup in: /home/michy/Local Sites/banana-design/app/public/wp-content/uploads
+0031.373 (0) finding files: elementor: adding to list (1)
+0031.462 (0) finding files: oceanwp-webfonts: adding to list (2)
+0031.540 (0) finding files: 2016: adding to list (3)
+0031.641 (0) finding files: oceanwp-webfonts-css: adding to list (4)
+0031.718 (0) finding files: 2024: adding to list (5)
+0031.975 (0) finding files: backup: skipping: excluded by options (glob)
+0032.142 (0) finding files: wpforms: adding to list (6)
+0032.231 (0) finding files: 2022: adding to list (7)
+0032.332 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0032.521 (0) Total entities for the zip file: 15 directories, 346 files (0 skipped as non-modified), 31.8 MB
+0032.648 (0) Zip: backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0032.770 (0) Zip: backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-uploads.zip.tmp: 200 files added (on-disk size: 0 KB)
+0032.839 (0) Zip: backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-uploads.zip.tmp: 300 files added (on-disk size: 0 KB)
+0033.403 (0) backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-uploads.zip.tmp: size is now: 26.40 MB
+0033.741 (0) Creating zip file manifest (backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-uploads.zip.list-temp.tmp)
+0033.852 (0) Successfully created zip file manifest (size: 18960)
+0034.775 (0) Created uploads zip (0) - 27026.6 KB in 2.3 s (11940 KB/s) (sha1: 75f9478a015e40a6ac8e84cebc0636cefa7d398f, sha256: 6e6b634242c42f657cdd09254174e3adee7f26da1900af307d663ab31af43a87)
+0035.021 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0035.110 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-b7bd9630d3c3b535e862127e4d886469)
+0035.200 (0) Google Drive: this account is not authorised
+0035.645 (0) Beginning creation of dump of mu-plugins (split every: 400 MB)
+0035.824 (0) Total entities for the zip file: 1 directories, 1 files (0 skipped as non-modified), 0 MB
+0035.968 (0) backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-mu-plugins.zip.tmp: size is now: 0.00 MB
+0036.150 (0) Creating zip file manifest (backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-mu-plugins.zip.list-temp.tmp)
+0036.228 (0) Successfully created zip file manifest (size: 71)
+0036.719 (0) Created mu-plugins zip (0) - 1.9 KB in 0.9 s (2.1 KB/s) (sha1: e577029895f6c2c08e7cc59394138488b5d76f2f, sha256: 7518b559f9911a4a87fc7030ba3970d32ae5e2f37963509b4f4ad43849c15a34)
+0036.965 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0037.076 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-b7bd9630d3c3b535e862127e4d886469)
+0037.166 (0) Google Drive: this account is not authorised
+0037.433 (0) Beginning backup of other directories found in the content directory (index: 0)
+0037.523 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0037.756 (0) Looking for candidates to backup in: /home/michy/Local Sites/banana-design/app/public/wp-content
+0037.834 (0) finding files: mu-plugins: skipping: this is the mu-plugins directory
+0037.991 (0) finding files: upgrade: skipping: excluded by options
+0038.113 (0) finding files: index.php: adding to list (1)
+0038.191 (0) finding files: themes: skipping: this is the themes directory
+0038.470 (0) finding files: languages: adding to list (2)
+0038.536 (0) finding files: updraft: skipping: this is the updraft directory
+0038.604 (0) finding files: plugins: skipping: this is the plugins directory
+0038.815 (0) finding files: uploads: skipping: this is the uploads directory
+0039.202 (0) Total entities for the zip file: 3 directories, 181 files (0 skipped as non-modified), 9.9 MB
+0039.367 (0) Zip: backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-others.zip.tmp: 100 files added (on-disk size: 0 KB)
+0040.145 (0) backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-others.zip.tmp: size is now: 2.70 MB
+0040.525 (0) Creating zip file manifest (backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-others.zip.list-temp.tmp)
+0040.790 (0) Successfully created zip file manifest (size: 11952)
+0041.880 (0) Created others zip (0) - 2804.5 KB in 2.7 s (1044.3 KB/s) (sha1: 83e6cc0bf4923a9534ff85eddd40779cbbc8d278, sha256: ffad0f3ec501c5ae8badaa0dd2ce0c3069acd8b8db6aa78658166caf1875e6ad)
+0042.437 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0042.504 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-b7bd9630d3c3b535e862127e4d886469)
+0042.726 (0) Google Drive: this account is not authorised
+0043.831 (0) Saving backup status to database (elements: 10)
+0044.309 (0) Beginning creation of database dump (WordPress DB)
+0044.422 (0) SQL compatibility mode is: NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION
+0044.766 (0) Testing potential mysqldump binary: /usr/bin/mysqldump
+0045.012 (0) Binary mysqldump: error (code: 2)
+0045.357 (0) Testing potential mysqldump binary: /bin/mysqldump
+0045.459 (0) Binary mysqldump: error (code: 2)
+0046.394 (0) Table wp_options: Total expected rows (via COUNT): 374
+0046.461 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0046.842 (0) Table wp_options: Rows added in this batch (next record: 1296): 369 (uncompressed bytes in this segment=1501610) in 0.72 seconds
+0047.755 (0) Table wp_options: finishing file(s) (2, 224.9 KB)
+0048.160 (0) Table wp_users: Total expected rows (via COUNT): 1
+0048.257 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0048.580 (0) Table wp_users: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1380) in 0.42 seconds
+0049.605 (0) Table wp_users: finishing file(s) (2, 0.6 KB)
+0050.206 (0) Table wp_usermeta: Total expected rows (via COUNT): 26
+0050.273 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0050.587 (0) Table wp_usermeta: Rows added in this batch (next record: 26): 26 (uncompressed bytes in this segment=2844) in 0.70 seconds
+0051.510 (0) Table wp_usermeta: finishing file(s) (2, 1.5 KB)
+0054.139 (0) Table wp_actionscheduler_actions: Total expected rows (via COUNT): 15
+0054.416 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0054.963 (0) Table wp_actionscheduler_actions: Rows added in this batch (next record: 601): 15 (uncompressed bytes in this segment=7562) in 3.10 seconds
+0055.819 (0) Table wp_actionscheduler_actions: finishing file(s) (2, 1.4 KB)
+0056.182 (0) Table wp_actionscheduler_claims: Total expected rows (via COUNT): 0
+0056.567 (0) Table wp_actionscheduler_claims: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=625) in 0.39 seconds
+0057.079 (0) Table wp_actionscheduler_claims: finishing file(s) (2, 0.4 KB)
+0057.247 (0) Table wp_actionscheduler_groups: Total expected rows (via COUNT): 2
+0057.531 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0057.855 (0) Table wp_actionscheduler_groups: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=706) in 0.61 seconds
+0058.444 (0) Table wp_actionscheduler_groups: finishing file(s) (2, 0.4 KB)
+0058.873 (0) Table wp_actionscheduler_logs: Total expected rows (via COUNT): 35
+0059.191 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0060.016 (0) Table wp_actionscheduler_logs: Rows added in this batch (next record: 35): 35 (uncompressed bytes in this segment=3821) in 1.15 seconds
+0060.371 (0) Table wp_actionscheduler_logs: finishing file(s) (2, 0.9 KB)
+0060.761 (0) Table wp_commentmeta: Total expected rows (via COUNT): 0
+0060.932 (0) Table wp_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=685) in 0.28 seconds
+0061.434 (0) Table wp_commentmeta: finishing file(s) (2, 0.4 KB)
+0061.653 (0) Table wp_comments: Total expected rows (via COUNT): 0
+0061.848 (0) Table wp_comments: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1722) in 0.20 seconds
+0062.104 (0) Table wp_comments: finishing file(s) (2, 0.5 KB)
+0062.506 (0) Table wp_imagify_files: Total expected rows (via COUNT): 0
+0062.618 (0) Table wp_imagify_files: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1516) in 0.34 seconds
+0062.975 (0) Table wp_imagify_files: finishing file(s) (2, 0.6 KB)
+0063.162 (0) Table wp_imagify_folders: Total expected rows (via COUNT): 0
+0063.246 (0) Table wp_imagify_folders: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=642) in 0.09 seconds
+0063.758 (0) Table wp_imagify_folders: finishing file(s) (2, 0.4 KB)
+0063.932 (0) Table wp_links: Total expected rows (via COUNT): 0
+0064.038 (0) Table wp_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1310) in 0.11 seconds
+0064.295 (0) Table wp_links: finishing file(s) (2, 0.5 KB)
+0065.364 (0) Table wp_postmeta: Total expected rows (approximate): 1398
+0065.719 (0) Table wp_postmeta: Rows added in this batch (next record: 1490): 1414 (uncompressed bytes in this segment=1784601) in 0.48 seconds
+0066.236 (0) Table wp_postmeta: finishing file(s) (2, 196.7 KB)
+0066.604 (0) Table wp_posts: Total expected rows (via COUNT): 140
+0066.683 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0066.889 (0) Table wp_posts: Rows added in this batch (next record: 649): 140 (uncompressed bytes in this segment=822693) in 0.43 seconds
+0067.431 (0) Table wp_posts: finishing file(s) (2, 53.9 KB)
+0067.715 (0) Table wp_term_relationships: Total expected rows (approximate): 33
+0067.891 (0) Table wp_term_relationships: Rows added in this batch (next record: 100000): 33 (uncompressed bytes in this segment=1145) in 0.18 seconds
+0068.315 (0) Table wp_term_relationships: finishing file(s) (2, 0.5 KB)
+0068.683 (0) Table wp_term_taxonomy: Total expected rows (via COUNT): 9
+0068.761 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0068.941 (0) Table wp_term_taxonomy: Rows added in this batch (next record: 9): 9 (uncompressed bytes in this segment=1204) in 0.34 seconds
+0069.720 (0) Table wp_term_taxonomy: finishing file(s) (2, 0.5 KB)
+0070.289 (0) Table wp_termmeta: Total expected rows (via COUNT): 0
+0070.591 (0) Table wp_termmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=658) in 0.47 seconds
+0070.948 (0) Table wp_termmeta: finishing file(s) (2, 0.4 KB)
+0071.157 (0) Table wp_terms: Total expected rows (via COUNT): 9
+0071.396 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0071.676 (0) Table wp_terms: Rows added in this batch (next record: 9): 9 (uncompressed bytes in this segment=977) in 0.52 seconds
+0071.921 (0) Table wp_terms: finishing file(s) (2, 0.5 KB)
+0072.272 (0) Table wp_blc_filters: Total expected rows (via COUNT): 0
+0072.724 (0) Table wp_blc_filters: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=537) in 0.45 seconds
+0073.303 (0) Table wp_blc_filters: finishing file(s) (2, 0.3 KB)
+0073.899 (0) Table wp_blc_instances: Total expected rows (via COUNT): 77
+0073.971 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0074.286 (0) Table wp_blc_instances: Rows added in this batch (next record: 354): 77 (uncompressed bytes in this segment=19393) in 0.39 seconds
+0074.987 (0) Table wp_blc_instances: finishing file(s) (2, 3.5 KB)
+0075.584 (0) Table wp_blc_links: Total expected rows (via COUNT): 21
+0075.855 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0076.171 (0) Table wp_blc_links: Rows added in this batch (next record: 34): 21 (uncompressed bytes in this segment=27364) in 0.59 seconds
+0076.913 (0) Table wp_blc_links: finishing file(s) (2, 3.8 KB)
+0077.098 (0) Table wp_blc_synch: Total expected rows (approximate): 15
+0077.272 (0) Table wp_blc_synch: Rows added in this batch (next record: 1000): 15 (uncompressed bytes in this segment=1291) in 0.18 seconds
+0077.650 (0) Table wp_blc_synch: finishing file(s) (2, 0.5 KB)
+0077.835 (0) Table wp_e_events: Total expected rows (via COUNT): 0
+0078.100 (0) Table wp_e_events: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=529) in 0.27 seconds
+0078.445 (0) Table wp_e_events: finishing file(s) (2, 0.4 KB)
+0078.675 (0) Table wp_hustle_entries: Total expected rows (via COUNT): 0
+0078.747 (0) Table wp_hustle_entries: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=703) in 0.08 seconds
+0079.182 (0) Table wp_hustle_entries: finishing file(s) (2, 0.4 KB)
+0079.561 (0) Table wp_hustle_entries_meta: Total expected rows (via COUNT): 0
+0079.730 (0) Table wp_hustle_entries_meta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=896) in 0.31 seconds
+0080.678 (0) Table wp_hustle_entries_meta: finishing file(s) (2, 0.4 KB)
+0080.851 (0) Table wp_hustle_modules: Total expected rows (via COUNT): 1
+0080.969 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0081.160 (0) Table wp_hustle_modules: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=878) in 0.31 seconds
+0081.705 (0) Table wp_hustle_modules: finishing file(s) (2, 0.4 KB)
+0082.006 (0) Table wp_hustle_modules_meta: Total expected rows (via COUNT): 9
+0082.107 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0082.191 (0) Table wp_hustle_modules_meta: Rows added in this batch (next record: 9): 9 (uncompressed bytes in this segment=77653) in 0.28 seconds
+0082.931 (0) Table wp_hustle_modules_meta: finishing file(s) (2, 10.2 KB)
+0083.239 (0) Table wp_hustle_tracking: Total expected rows (via COUNT): 1
+0083.513 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0083.848 (0) Table wp_hustle_tracking: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1339) in 0.61 seconds
+0084.248 (0) Table wp_hustle_tracking: finishing file(s) (2, 0.6 KB)
+0084.895 (0) Table wp_seopress_content_analysis: Total expected rows (via COUNT): 2
+0085.106 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0085.186 (0) Table wp_seopress_content_analysis: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=8190) in 0.37 seconds
+0086.131 (0) Table wp_seopress_content_analysis: finishing file(s) (2, 1.9 KB)
+0086.800 (0) Table wp_wpforms_logs: Total expected rows (via COUNT): 0
+0087.113 (0) Table wp_wpforms_logs: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=752) in 0.41 seconds
+0088.027 (0) Table wp_wpforms_logs: finishing file(s) (2, 0.4 KB)
+0088.841 (0) Table wp_wpforms_payment_meta: Total expected rows (via COUNT): 0
+0089.353 (0) Table wp_wpforms_payment_meta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=739) in 0.77 seconds
+0090.422 (0) Table wp_wpforms_payment_meta: finishing file(s) (2, 0.4 KB)
+0090.807 (0) Table wp_wpforms_payments: Total expected rows (via COUNT): 0
+0090.969 (0) Table wp_wpforms_payments: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1970) in 0.17 seconds
+0091.248 (0) Table wp_wpforms_payments: finishing file(s) (2, 0.6 KB)
+0091.719 (0) Table wp_wpforms_tasks_meta: Total expected rows (via COUNT): 4
+0091.807 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0091.976 (0) Table wp_wpforms_tasks_meta: Rows added in this batch (next record: 6): 4 (uncompressed bytes in this segment=973) in 0.38 seconds
+0092.321 (0) Table wp_wpforms_tasks_meta: finishing file(s) (2, 0.5 KB)
+0092.633 (0) PHP event: code E_WARNING: filemtime(): stat failed for /home/michy/Local Sites/banana-design/app/public/wp-content/updraft/backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-db.gz (line 1925, wp-content/plugins/updraftplus/backup.php)
+0092.724 (0) backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-db-table-wp_options.table.tmpr1297.gz (1/33/fopen): adding to final database dump
+0092.814 (0) backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-db-table-wp_options.table.gz (2/33/fopen): adding to final database dump
+0092.901 (0) backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-db-table-wp_users.table.tmpr2.gz (3/33/fopen): adding to final database dump
+0092.979 (0) backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-db-table-wp_users.table.gz (4/33/fopen): adding to final database dump
+0093.057 (0) backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-db-table-wp_usermeta.table.tmpr27.gz (5/33/fopen): adding to final database dump
+0093.147 (0) backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-db-table-wp_usermeta.table.gz (6/33/fopen): adding to final database dump
+0093.225 (0) backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-db-table-wp_actionscheduler_actions.table.tmpr602.gz (7/33/fopen): adding to final database dump
+0093.315 (0) backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-db-table-wp_actionscheduler_actions.table.gz (8/33/fopen): adding to final database dump
+0093.459 (0) backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-db-table-wp_actionscheduler_claims.table.tmpr0.gz (9/33/fopen): adding to final database dump
+0093.582 (0) backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-db-table-wp_actionscheduler_claims.table.gz (10/33/fopen): adding to final database dump
+0093.816 (0) backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-db-table-wp_actionscheduler_groups.table.tmpr3.gz (11/33/fopen): adding to final database dump
+0093.894 (0) backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-db-table-wp_actionscheduler_groups.table.gz (12/33/fopen): adding to final database dump
+0093.972 (0) backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-db-table-wp_actionscheduler_logs.table.tmpr36.gz (13/33/fopen): adding to final database dump
+0094.052 (0) backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-db-table-wp_actionscheduler_logs.table.gz (14/33/fopen): adding to final database dump
+0094.131 (0) backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-db-table-wp_commentmeta.table.tmpr0.gz (15/33/fopen): adding to final database dump
+0094.231 (0) backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-db-table-wp_commentmeta.table.gz (16/33/fopen): adding to final database dump
+0094.309 (0) backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-db-table-wp_comments.table.tmpr0.gz (17/33/fopen): adding to final database dump
+0094.477 (0) backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-db-table-wp_comments.table.gz (18/33/fopen): adding to final database dump
+0094.577 (0) backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-db-table-wp_imagify_files.table.tmpr0.gz (19/33/fopen): adding to final database dump
+0094.666 (0) backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-db-table-wp_imagify_files.table.gz (20/33/fopen): adding to final database dump
+0094.766 (0) backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-db-table-wp_imagify_folders.table.tmpr0.gz (21/33/fopen): adding to final database dump
+0095.001 (0) backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-db-table-wp_imagify_folders.table.gz (22/33/fopen): adding to final database dump
+0095.090 (0) backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-db-table-wp_links.table.tmpr0.gz (23/33/fopen): adding to final database dump
+0095.179 (0) backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-db-table-wp_links.table.gz (24/33/fopen): adding to final database dump
+0095.268 (0) backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-db-table-wp_postmeta.table.tmpr1491.gz (25/33/fopen): adding to final database dump
+0095.373 (0) backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-db-table-wp_postmeta.table.gz (26/33/fopen): adding to final database dump
+0095.547 (0) backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-db-table-wp_posts.table.tmpr650.gz (27/33/fopen): adding to final database dump
+0095.627 (0) backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-db-table-wp_posts.table.gz (28/33/fopen): adding to final database dump
+0095.737 (0) backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-db-table-wp_term_relationships.table.tmpr100001.gz (29/33/fopen): adding to final database dump
+0095.826 (0) backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-db-table-wp_term_relationships.table.gz (30/33/fopen): adding to final database dump
+0096.083 (0) backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-db-table-wp_term_taxonomy.table.tmpr10.gz (31/33/fopen): adding to final database dump
+0096.161 (0) backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-db-table-wp_term_taxonomy.table.gz (32/33/fopen): adding to final database dump
+0096.250 (0) backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-db-table-wp_termmeta.table.tmpr0.gz (33/33/fopen): adding to final database dump
+0096.329 (0) backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-db-table-wp_termmeta.table.gz (34/33/fopen): adding to final database dump
+0096.473 (0) backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-db-table-wp_terms.table.tmpr10.gz (35/33/fopen): adding to final database dump
+0096.585 (0) backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-db-table-wp_terms.table.gz (36/33/fopen): adding to final database dump
+0096.652 (0) backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-db-table-wp_blc_filters.table.tmpr0.gz (37/33/fopen): adding to final database dump
+0096.721 (0) backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-db-table-wp_blc_filters.table.gz (38/33/fopen): adding to final database dump
+0096.799 (0) backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-db-table-wp_blc_instances.table.tmpr355.gz (39/33/fopen): adding to final database dump
+0096.899 (0) backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-db-table-wp_blc_instances.table.gz (40/33/fopen): adding to final database dump
+0096.989 (0) backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-db-table-wp_blc_links.table.tmpr35.gz (41/33/fopen): adding to final database dump
+0097.245 (0) backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-db-table-wp_blc_links.table.gz (42/33/fopen): adding to final database dump
+0097.356 (0) backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-db-table-wp_blc_synch.table.tmpr1001.gz (43/33/fopen): adding to final database dump
+0097.557 (0) backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-db-table-wp_blc_synch.table.gz (44/33/fopen): adding to final database dump
+0097.646 (0) backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-db-table-wp_e_events.table.tmpr0.gz (45/33/fopen): adding to final database dump
+0097.725 (0) backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-db-table-wp_e_events.table.gz (46/33/fopen): adding to final database dump
+0097.814 (0) backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-db-table-wp_hustle_entries.table.tmpr0.gz (47/33/fopen): adding to final database dump
+0097.892 (0) backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-db-table-wp_hustle_entries.table.gz (48/33/fopen): adding to final database dump
+0097.970 (0) backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-db-table-wp_hustle_entries_meta.table.tmpr0.gz (49/33/fopen): adding to final database dump
+0098.060 (0) backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-db-table-wp_hustle_entries_meta.table.gz (50/33/fopen): adding to final database dump
+0098.138 (0) backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-db-table-wp_hustle_modules.table.tmpr2.gz (51/33/fopen): adding to final database dump
+0098.372 (0) backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-db-table-wp_hustle_modules.table.gz (52/33/fopen): adding to final database dump
+0098.583 (0) backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-db-table-wp_hustle_modules_meta.table.tmpr10.gz (53/33/fopen): adding to final database dump
+0098.662 (0) backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-db-table-wp_hustle_modules_meta.table.gz (54/33/fopen): adding to final database dump
+0098.751 (0) backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-db-table-wp_hustle_tracking.table.tmpr2.gz (55/33/fopen): adding to final database dump
+0098.818 (0) backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-db-table-wp_hustle_tracking.table.gz (56/33/fopen): adding to final database dump
+0098.885 (0) backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-db-table-wp_seopress_content_analysis.table.tmpr3.gz (57/33/fopen): adding to final database dump
+0098.952 (0) backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-db-table-wp_seopress_content_analysis.table.gz (58/33/fopen): adding to final database dump
+0099.019 (0) backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-db-table-wp_wpforms_logs.table.tmpr0.gz (59/33/fopen): adding to final database dump
+0099.086 (0) backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-db-table-wp_wpforms_logs.table.gz (60/33/fopen): adding to final database dump
+0099.164 (0) backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-db-table-wp_wpforms_payment_meta.table.tmpr0.gz (61/33/fopen): adding to final database dump
+0099.243 (0) backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-db-table-wp_wpforms_payment_meta.table.gz (62/33/fopen): adding to final database dump
+0099.545 (0) backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-db-table-wp_wpforms_payments.table.tmpr0.gz (63/33/fopen): adding to final database dump
+0099.735 (0) backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-db-table-wp_wpforms_payments.table.gz (64/33/fopen): adding to final database dump
+0099.835 (0) backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-db-table-wp_wpforms_tasks_meta.table.tmpr7.gz (65/33/fopen): adding to final database dump
+0099.925 (0) backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-db-table-wp_wpforms_tasks_meta.table.gz (66/33/fopen): adding to final database dump
+0100.009 (0) backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-db.gz: finished writing out complete database file (508.9 KB)
+0100.461 (0) Total database tables backed up: 33 (backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-db.gz, size: 521267, sha1: b4eb10272c5cc83b0f2e4deb055bc8567e391aff, sha256: 3636c0ee35c4c7e9479cb94e212329db7a2e2d233e35000727a401fcfb9b27e5)
+0100.985 (0) backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0101.052 (0) backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0101.119 (0) backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0101.186 (0) backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-mu-plugins.zip: mu-plugins: This file has not yet been successfully uploaded: will queue
+0101.264 (0) backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-others.zip: others: This file has not yet been successfully uploaded: will queue
+0101.365 (0) backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-db.gz: db: This file has not yet been successfully uploaded: will queue
+0101.532 (0) Saving backup history. Total backup size: 101.4 MB
+0101.855 (0) Requesting upload of the files that have not yet been successfully uploaded (6)
+0102.102 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0102.192 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-b7bd9630d3c3b535e862127e4d886469)
+0102.270 (0) Google Drive: this account is not authorised
+0102.627 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0102.706 (0) Number of backup sets in history: 2; groups (db): 1
+0102.949 (0) Examining (for databases) backup set with group_id=0, nonce=993bc031422a, datestamp=1719299054 (Jun 25 2024 07:04:14)
+0103.028 (0) This backup set is the backup set just made, so will not be deleted.
+0103.028 (0) Examining (for databases) backup set with group_id=0, nonce=e39786d7b664, datestamp=1719251935 (Jun 24 2024 17:58:55)
+0103.028 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0103.106 (0) Number of backup sets in history: 2; groups (files): 1
+0103.184 (0) Examining (for files) backup set with nonce=993bc031422a, datestamp=1719299054 (Jun 25 2024 07:04:14)
+0103.184 (0) This backup set is the backup set just made, so will not be deleted.
+0103.262 (0) This backup set is the backup set just made, so will not be deleted.
+0103.263 (0) This backup set is the backup set just made, so will not be deleted.
+0103.263 (0) This backup set is the backup set just made, so will not be deleted.
+0103.263 (0) This backup set is the backup set just made, so will not be deleted.
+0103.263 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0103.352 (0) Examining (for files) backup set with nonce=e39786d7b664, datestamp=1719251935 (Jun 24 2024 17:58:55)
+0103.352 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0103.542 (0) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0103.721 (0) Resume backup (993bc031422a, 0): finish run
+0104.122 (0) Decremented the semaphore (fd) by 1
+0104.278 (0) Semaphore (fd) unlocked
+0104.379 (0) There were errors in the uploads, so the 'resume' event is remaining scheduled
+0104.958 (0) No email will/can be sent - the user has not configured an email address.
+0105.049 (0) La sauvegarde ne s'est pas terminée; une relance de la procédure est prévue
+0479.994 (1) Opened log file at time: Tue, 25 Jun 2024 07:12:14 +0000 on http://localhost:10003
+0480.072 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.24.3 WP: 6.5.4 PHP: 8.1.23 (fpm-fcgi, Linux kali 6.8.11-amd64 #1 SMP PREEMPT_DYNAMIC Kali 6.8.11-1kali2 (2024-05-30) x86_64) MySQL: 8.0.16 (max packet size=16777216) WPLANG: fr_FR Server: nginx/1.16.0 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 8M | 10M) multisite: N openssl: OpenSSL 1.1.1f  31 Mar 2020 mcrypt: N LANG:  ZipArchive::addFile: Y
+0480.161 (1) Free space on disk containing Updraft's temporary directory: 205580.3 MB
+0480.240 (1) Requesting backup semaphore lock (993bc031422a)
+0480.450 (1) [Debug] Lock option (updraft_lock_993bc031422a, wp_options) was created in the database
+0480.596 (1) [Info] Lock (updraft_lock_993bc031422a, wp_options) acquired after initialising the database
+0480.785 (1) Backup run: resumption=1, nonce=993bc031422a, file_nonce=993bc031422a begun at=1719299054 (481s ago), job type=backup, previous check-in=92.22s
+0480.964 (1) Scheduling a resumption (2) after 300 seconds (1719299835) in case this run gets aborted
+0481.110 (1) Checking if we have a zip executable available
+0481.188 (1) Zip engine: found/will use a binary zip: /usr/bin/zip
+0481.266 (1) Creation of backups of directories: already finished
+0481.345 (1) Saving backup status to database (elements: 10)
+0481.636 (1) Database dump (WordPress DB): Creation was completed already
+0481.726 (1) SQL compatibility mode is: NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION
+0482.004 (1) backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0482.094 (1) backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0482.183 (1) backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0482.261 (1) backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-mu-plugins.zip: mu-plugins: This file has not yet been successfully uploaded: will queue
+0482.350 (1) backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-others.zip: others: This file has not yet been successfully uploaded: will queue
+0482.473 (1) backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-db.gz: db: This file has not yet been successfully uploaded: will queue
+0482.573 (1) Saving backup history. Total backup size: 101.4 MB
+0482.741 (1) Requesting upload of the files that have not yet been successfully uploaded (6)
+0482.931 (1) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0482.998 (1) Beginning dispatch of backup to remote (googledrive) (instance identifier s-b7bd9630d3c3b535e862127e4d886469)
+0483.076 (1) Google Drive: this account is not authorised
+0483.143 (1) An error condition has occurred for the first time during this job
+0483.288 (1) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0483.367 (1) Number of backup sets in history: 2; groups (db): 1
+0483.489 (1) Examining (for databases) backup set with group_id=0, nonce=993bc031422a, datestamp=1719299054 (Jun 25 2024 07:04:14)
+0483.556 (1) This backup set is the backup set just made, so will not be deleted.
+0483.556 (1) Examining (for databases) backup set with group_id=0, nonce=e39786d7b664, datestamp=1719251935 (Jun 24 2024 17:58:55)
+0483.556 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0483.634 (1) Number of backup sets in history: 2; groups (files): 1
+0483.735 (1) Examining (for files) backup set with nonce=993bc031422a, datestamp=1719299054 (Jun 25 2024 07:04:14)
+0483.735 (1) This backup set is the backup set just made, so will not be deleted.
+0483.815 (1) This backup set is the backup set just made, so will not be deleted.
+0483.815 (1) This backup set is the backup set just made, so will not be deleted.
+0483.816 (1) This backup set is the backup set just made, so will not be deleted.
+0483.816 (1) This backup set is the backup set just made, so will not be deleted.
+0483.816 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0483.904 (1) Examining (for files) backup set with nonce=e39786d7b664, datestamp=1719251935 (Jun 24 2024 17:58:55)
+0483.905 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0483.905 (1) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0484.083 (1) Resume backup (993bc031422a, 1): finish run
+0484.172 (1) [Info] Lock option (updraft_lock_993bc031422a, wp_options) released
+0484.339 (1) There were errors in the uploads, so the 'resume' event is remaining scheduled
+0484.574 (1) No email will/can be sent - the user has not configured an email address.
+0484.652 (1) La sauvegarde ne s'est pas terminée; une relance de la procédure est prévue
+0959.793 (2) Opened log file at time: Tue, 25 Jun 2024 07:20:14 +0000 on http://localhost:10003
+0959.893 (2) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.24.3 WP: 6.5.4 PHP: 8.1.23 (fpm-fcgi, Linux kali 6.8.11-amd64 #1 SMP PREEMPT_DYNAMIC Kali 6.8.11-1kali2 (2024-05-30) x86_64) MySQL: 8.0.16 (max packet size=16777216) WPLANG: fr_FR Server: nginx/1.16.0 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 8M | 10M) multisite: N openssl: OpenSSL 1.1.1f  31 Mar 2020 mcrypt: N LANG:  ZipArchive::addFile: Y
+0959.970 (2) Free space on disk containing Updraft's temporary directory: 205580.1 MB
+0960.093 (2) Requesting backup semaphore lock (993bc031422a)
+0960.272 (2) [Info] Lock (updraft_lock_993bc031422a, wp_options) acquired
+0960.473 (2) Backup run: resumption=2, nonce=993bc031422a, file_nonce=993bc031422a begun at=1719299054 (961s ago), job type=backup
+0960.718 (2) Scheduling a resumption (3) after 300 seconds (1719300315) in case this run gets aborted
+0960.997 (2) Checking if we have a zip executable available
+0961.130 (2) Zip engine: found/will use a binary zip: /usr/bin/zip
+0961.209 (2) Creation of backups of directories: already finished
+0961.298 (2) Saving backup status to database (elements: 10)
+0961.532 (2) Database dump (WordPress DB): Creation was completed already
+0961.681 (2) SQL compatibility mode is: NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION
+0961.981 (2) backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0962.070 (2) backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0962.148 (2) backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0962.227 (2) backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-mu-plugins.zip: mu-plugins: This file has not yet been successfully uploaded: will queue
+0962.349 (2) backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-others.zip: others: This file has not yet been successfully uploaded: will queue
+0962.439 (2) backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-db.gz: db: This file has not yet been successfully uploaded: will queue
+0962.617 (2) Saving backup history. Total backup size: 101.4 MB
+0962.795 (2) Requesting upload of the files that have not yet been successfully uploaded (6)
+0962.985 (2) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0963.063 (2) Beginning dispatch of backup to remote (googledrive) (instance identifier s-b7bd9630d3c3b535e862127e4d886469)
+0963.141 (2) Google Drive: this account is not authorised
+0963.231 (2) An error condition has occurred for the first time during this job
+0963.398 (2) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0963.511 (2) Number of backup sets in history: 2; groups (db): 1
+0963.588 (2) Examining (for databases) backup set with group_id=0, nonce=993bc031422a, datestamp=1719299054 (Jun 25 2024 07:04:14)
+0963.677 (2) This backup set is the backup set just made, so will not be deleted.
+0963.677 (2) Examining (for databases) backup set with group_id=0, nonce=e39786d7b664, datestamp=1719251935 (Jun 24 2024 17:58:55)
+0963.677 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+0963.755 (2) Number of backup sets in history: 2; groups (files): 1
+0963.867 (2) Examining (for files) backup set with nonce=993bc031422a, datestamp=1719299054 (Jun 25 2024 07:04:14)
+0963.867 (2) This backup set is the backup set just made, so will not be deleted.
+0963.945 (2) This backup set is the backup set just made, so will not be deleted.
+0963.945 (2) This backup set is the backup set just made, so will not be deleted.
+0963.946 (2) This backup set is the backup set just made, so will not be deleted.
+0963.946 (2) This backup set is the backup set just made, so will not be deleted.
+0963.946 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+0964.034 (2) Examining (for files) backup set with nonce=e39786d7b664, datestamp=1719251935 (Jun 24 2024 17:58:55)
+0964.034 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+0964.035 (2) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0964.181 (2) Resume backup (993bc031422a, 2): finish run
+0964.271 (2) [Info] Lock option (updraft_lock_993bc031422a, wp_options) released
+0964.438 (2) There were errors in the uploads, so the 'resume' event is remaining scheduled
+0964.617 (2) No email will/can be sent - the user has not configured an email address.
+0964.706 (2) La sauvegarde ne s'est pas terminée; une relance de la procédure est prévue
+1439.805 (3) Opened log file at time: Tue, 25 Jun 2024 07:28:14 +0000 on http://localhost:10003
+1439.883 (3) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.24.3 WP: 6.5.4 PHP: 8.1.23 (fpm-fcgi, Linux kali 6.8.11-amd64 #1 SMP PREEMPT_DYNAMIC Kali 6.8.11-1kali2 (2024-05-30) x86_64) MySQL: 8.0.16 (max packet size=16777216) WPLANG: fr_FR Server: nginx/1.16.0 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 8M | 10M) multisite: N openssl: OpenSSL 1.1.1f  31 Mar 2020 mcrypt: N LANG:  ZipArchive::addFile: Y
+1439.983 (3) Free space on disk containing Updraft's temporary directory: 205586.6 MB
+1440.061 (3) Requesting backup semaphore lock (993bc031422a)
+1440.250 (3) [Info] Lock (updraft_lock_993bc031422a, wp_options) acquired
+1440.429 (3) Backup run: resumption=3, nonce=993bc031422a, file_nonce=993bc031422a begun at=1719299054 (1441s ago), job type=backup
+1440.619 (3) Scheduling a resumption (4) after 300 seconds (1719300795) in case this run gets aborted
+1440.797 (3) Checking if we have a zip executable available
+1440.919 (3) Zip engine: found/will use a binary zip: /usr/bin/zip
+1441.009 (3) Creation of backups of directories: already finished
+1441.099 (3) Saving backup status to database (elements: 10)
+1441.288 (3) Database dump (WordPress DB): Creation was completed already
+1441.367 (3) SQL compatibility mode is: NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION
+1441.647 (3) backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+1441.714 (3) backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+1441.781 (3) backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+1441.848 (3) backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-mu-plugins.zip: mu-plugins: This file has not yet been successfully uploaded: will queue
+1441.915 (3) backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-others.zip: others: This file has not yet been successfully uploaded: will queue
+1441.982 (3) backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-db.gz: db: This file has not yet been successfully uploaded: will queue
+1442.049 (3) Saving backup history. Total backup size: 101.4 MB
+1442.194 (3) Requesting upload of the files that have not yet been successfully uploaded (6)
+1442.351 (3) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+1442.463 (3) Beginning dispatch of backup to remote (googledrive) (instance identifier s-b7bd9630d3c3b535e862127e4d886469)
+1442.552 (3) Google Drive: this account is not authorised
+1442.641 (3) An error condition has occurred for the first time during this job
+1442.819 (3) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+1442.921 (3) Number of backup sets in history: 2; groups (db): 1
+1443.009 (3) Examining (for databases) backup set with group_id=0, nonce=993bc031422a, datestamp=1719299054 (Jun 25 2024 07:04:14)
+1443.098 (3) This backup set is the backup set just made, so will not be deleted.
+1443.099 (3) Examining (for databases) backup set with group_id=0, nonce=e39786d7b664, datestamp=1719251935 (Jun 24 2024 17:58:55)
+1443.099 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1443.188 (3) Number of backup sets in history: 2; groups (files): 1
+1443.277 (3) Examining (for files) backup set with nonce=993bc031422a, datestamp=1719299054 (Jun 25 2024 07:04:14)
+1443.277 (3) This backup set is the backup set just made, so will not be deleted.
+1443.366 (3) This backup set is the backup set just made, so will not be deleted.
+1443.455 (3) This backup set is the backup set just made, so will not be deleted.
+1443.456 (3) This backup set is the backup set just made, so will not be deleted.
+1443.456 (3) This backup set is the backup set just made, so will not be deleted.
+1443.456 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1443.534 (3) Examining (for files) backup set with nonce=e39786d7b664, datestamp=1719251935 (Jun 24 2024 17:58:55)
+1443.534 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1443.534 (3) Retain: saving new backup history (sets now: 2) and finishing retain operation
+1443.712 (3) Resume backup (993bc031422a, 3): finish run
+1443.791 (3) [Info] Lock option (updraft_lock_993bc031422a, wp_options) released
+1443.980 (3) There were errors in the uploads, so the 'resume' event is remaining scheduled
+1444.149 (3) No email will/can be sent - the user has not configured an email address.
+1444.217 (3) La sauvegarde ne s'est pas terminée; une relance de la procédure est prévue
+1919.872 (4) Opened log file at time: Tue, 25 Jun 2024 07:36:14 +0000 on http://localhost:10003
+1919.938 (4) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.24.3 WP: 6.5.4 PHP: 8.1.23 (fpm-fcgi, Linux kali 6.8.11-amd64 #1 SMP PREEMPT_DYNAMIC Kali 6.8.11-1kali2 (2024-05-30) x86_64) MySQL: 8.0.16 (max packet size=16777216) WPLANG: fr_FR Server: nginx/1.16.0 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 8M | 10M) multisite: N openssl: OpenSSL 1.1.1f  31 Mar 2020 mcrypt: N LANG:  ZipArchive::addFile: Y
+1920.005 (4) Free space on disk containing Updraft's temporary directory: 205586.4 MB
+1920.072 (4) Requesting backup semaphore lock (993bc031422a)
+1920.205 (4) [Info] Lock (updraft_lock_993bc031422a, wp_options) acquired
+1920.362 (4) Backup run: resumption=4, nonce=993bc031422a, file_nonce=993bc031422a begun at=1719299054 (1921s ago), job type=backup
+1920.540 (4) Scheduling a resumption (5) after 300 seconds (1719301275) in case this run gets aborted
+1920.742 (4) Checking if we have a zip executable available
+1920.842 (4) Zip engine: found/will use a binary zip: /usr/bin/zip
+1920.931 (4) Creation of backups of directories: already finished
+1921.021 (4) Saving backup status to database (elements: 10)
+1921.211 (4) Database dump (WordPress DB): Creation was completed already
+1921.301 (4) SQL compatibility mode is: NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION
+1921.603 (4) backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+1921.860 (4) backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+1921.927 (4) backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+1921.994 (4) backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-mu-plugins.zip: mu-plugins: This file has not yet been successfully uploaded: will queue
+1922.061 (4) backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-others.zip: others: This file has not yet been successfully uploaded: will queue
+1922.128 (4) backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-db.gz: db: This file has not yet been successfully uploaded: will queue
+1922.195 (4) Saving backup history. Total backup size: 101.4 MB
+1922.351 (4) Requesting upload of the files that have not yet been successfully uploaded (6)
+1922.508 (4) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+1922.597 (4) Beginning dispatch of backup to remote (googledrive) (instance identifier s-b7bd9630d3c3b535e862127e4d886469)
+1922.709 (4) Google Drive: this account is not authorised
+1922.854 (4) An error condition has occurred for the first time during this job
+1923.033 (4) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+1923.123 (4) Number of backup sets in history: 2; groups (db): 1
+1923.211 (4) Examining (for databases) backup set with group_id=0, nonce=993bc031422a, datestamp=1719299054 (Jun 25 2024 07:04:14)
+1923.300 (4) This backup set is the backup set just made, so will not be deleted.
+1923.300 (4) Examining (for databases) backup set with group_id=0, nonce=e39786d7b664, datestamp=1719251935 (Jun 24 2024 17:58:55)
+1923.301 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+1923.389 (4) Number of backup sets in history: 2; groups (files): 1
+1923.479 (4) Examining (for files) backup set with nonce=993bc031422a, datestamp=1719299054 (Jun 25 2024 07:04:14)
+1923.479 (4) This backup set is the backup set just made, so will not be deleted.
+1923.579 (4) This backup set is the backup set just made, so will not be deleted.
+1923.579 (4) This backup set is the backup set just made, so will not be deleted.
+1923.579 (4) This backup set is the backup set just made, so will not be deleted.
+1923.579 (4) This backup set is the backup set just made, so will not be deleted.
+1923.579 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+1923.657 (4) Examining (for files) backup set with nonce=e39786d7b664, datestamp=1719251935 (Jun 24 2024 17:58:55)
+1923.657 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+1923.658 (4) Retain: saving new backup history (sets now: 2) and finishing retain operation
+1923.897 (4) Resume backup (993bc031422a, 4): finish run
+1923.995 (4) [Info] Lock option (updraft_lock_993bc031422a, wp_options) released
+1924.128 (4) There were errors in the uploads, so the 'resume' event is remaining scheduled
+1924.274 (4) No email will/can be sent - the user has not configured an email address.
+1924.352 (4) La sauvegarde ne s'est pas terminée; une relance de la procédure est prévue
+2400.929 (5) Opened log file at time: Tue, 25 Jun 2024 07:44:15 +0000 on http://localhost:10003
+2400.929 (5) Opened log file at time: Tue, 25 Jun 2024 07:44:15 +0000 on http://localhost:10003
+2401.018 (5) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.24.3 WP: 6.5.4 PHP: 8.1.23 (fpm-fcgi, Linux kali 6.8.11-amd64 #1 SMP PREEMPT_DYNAMIC Kali 6.8.11-1kali2 (2024-05-30) x86_64) MySQL: 8.0.16 (max packet size=16777216) WPLANG: fr_FR Server: nginx/1.16.0 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 8M | 12M) multisite: N openssl: OpenSSL 1.1.1f  31 Mar 2020 mcrypt: N LANG:  ZipArchive::addFile: Y
+2401.018 (5) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.24.3 WP: 6.5.4 PHP: 8.1.23 (fpm-fcgi, Linux kali 6.8.11-amd64 #1 SMP PREEMPT_DYNAMIC Kali 6.8.11-1kali2 (2024-05-30) x86_64) MySQL: 8.0.16 (max packet size=16777216) WPLANG: fr_FR Server: nginx/1.16.0 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 8M | 10M) multisite: N openssl: OpenSSL 1.1.1f  31 Mar 2020 mcrypt: N LANG:  ZipArchive::addFile: Y
+2401.085 (5) Free space on disk containing Updraft's temporary directory: 205586.2 MB
+2401.152 (5) Free space on disk containing Updraft's temporary directory: 205586.2 MB
+2401.230 (5) Requesting backup semaphore lock (993bc031422a)
+2401.230 (5) Requesting backup semaphore lock (993bc031422a)
+2401.397 (5) [Info] Lock (updraft_lock_993bc031422a, wp_options) acquired
+2401.398 (5) [Debug] Lock option (updraft_lock_993bc031422a, wp_options) already existed in the database
+2401.399 (5) [Info] Lock (updraft_lock_993bc031422a, wp_options) could not be acquired (it is locked)
+2401.565 (5) Failed to gain semaphore lock (993bc031422a) - another resumption for this job is apparently already active
+2401.620 (5) Backup run: resumption=5, nonce=993bc031422a, file_nonce=993bc031422a begun at=1719299054 (2402s ago), job type=backup
+2401.710 (5) Failed to get backup job lock; possible overlapping resumptions - will abort this instance
+2401.969 (5) Scheduling a resumption (6) after 300 seconds (1719301756) in case this run gets aborted
+2402.159 (5) Checking if we have a zip executable available
+2402.248 (5) Zip engine: found/will use a binary zip: /usr/bin/zip
+2402.325 (5) Creation of backups of directories: already finished
+2402.415 (5) Saving backup status to database (elements: 10)
+2402.549 (5) Database dump (WordPress DB): Creation was completed already
+2402.617 (5) SQL compatibility mode is: NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION
+2402.840 (5) backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+2402.906 (5) backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+2402.973 (5) backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+2403.041 (5) backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-mu-plugins.zip: mu-plugins: This file has not yet been successfully uploaded: will queue
+2403.108 (5) backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-others.zip: others: This file has not yet been successfully uploaded: will queue
+2403.175 (5) backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-db.gz: db: This file has not yet been successfully uploaded: will queue
+2403.253 (5) Saving backup history. Total backup size: 101.4 MB
+2403.420 (5) Requesting upload of the files that have not yet been successfully uploaded (6)
+2403.599 (5) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+2403.688 (5) Beginning dispatch of backup to remote (googledrive) (instance identifier s-b7bd9630d3c3b535e862127e4d886469)
+2403.777 (5) Google Drive: this account is not authorised
+2403.867 (5) An error condition has occurred for the first time during this job
+2404.045 (5) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+2404.138 (5) Number of backup sets in history: 2; groups (db): 1
+2404.215 (5) Examining (for databases) backup set with group_id=0, nonce=993bc031422a, datestamp=1719299054 (Jun 25 2024 07:04:14)
+2404.326 (5) This backup set is the backup set just made, so will not be deleted.
+2404.326 (5) Examining (for databases) backup set with group_id=0, nonce=e39786d7b664, datestamp=1719251935 (Jun 24 2024 17:58:55)
+2404.326 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+2404.415 (5) Number of backup sets in history: 2; groups (files): 1
+2404.482 (5) Examining (for files) backup set with nonce=993bc031422a, datestamp=1719299054 (Jun 25 2024 07:04:14)
+2404.483 (5) This backup set is the backup set just made, so will not be deleted.
+2404.549 (5) This backup set is the backup set just made, so will not be deleted.
+2404.550 (5) This backup set is the backup set just made, so will not be deleted.
+2404.550 (5) This backup set is the backup set just made, so will not be deleted.
+2404.550 (5) This backup set is the backup set just made, so will not be deleted.
+2404.550 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+2404.616 (5) Examining (for files) backup set with nonce=e39786d7b664, datestamp=1719251935 (Jun 24 2024 17:58:55)
+2404.617 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+2404.617 (5) Retain: saving new backup history (sets now: 2) and finishing retain operation
+2404.762 (5) Resume backup (993bc031422a, 5): finish run
+2404.829 (5) [Info] Lock option (updraft_lock_993bc031422a, wp_options) released
+2404.962 (5) There were errors in the uploads, so the 'resume' event is remaining scheduled
+2405.108 (5) No email will/can be sent - the user has not configured an email address.
+2405.186 (5) La sauvegarde ne s'est pas terminée; une relance de la procédure est prévue
+9457.422 (6) Opened log file at time: Tue, 25 Jun 2024 09:41:52 +0000 on http://localhost:10003
+9457.632 (6) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.24.3 WP: 6.5.4 PHP: 8.1.23 (fpm-fcgi, Linux kali 6.8.11-amd64 #1 SMP PREEMPT_DYNAMIC Kali 6.8.11-1kali2 (2024-05-30) x86_64) MySQL: 8.0.16 (max packet size=16777216) WPLANG: fr_FR Server: nginx/1.16.0 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 8.1M | 10M) multisite: N openssl: OpenSSL 1.1.1f  31 Mar 2020 mcrypt: N LANG:  ZipArchive::addFile: Y
+9457.832 (6) Free space on disk containing Updraft's temporary directory: 205513.9 MB
+9458.070 (6) Requesting backup semaphore lock (993bc031422a)
+9458.911 (6) [Info] Lock (updraft_lock_993bc031422a, wp_options) acquired
+9459.415 (6) Backup run: resumption=6, nonce=993bc031422a, file_nonce=993bc031422a begun at=1719299054 (9460s ago), job type=backup
+9459.605 (6) Long time past since expected resumption time: approx expected=1719301755.6, now=1719308512.1, diff=6756.5
+9461.126 (6) [Warning] Votre site est rarement consulté et UpdraftPlus ne peut pas récupérer les ressources qu’il recherche. Veuillez prendre connaissance de cette page : https://updraftplus.com/faqs/why-am-i-getting-warnings-about-my-site-not-having-enough-visitors/
+9461.640 (6) Scheduling a resumption (7) after 300 seconds (1719308816) in case this run gets aborted
+9462.343 (6) Checking if we have a zip executable available
+9462.487 (6) Zip engine: found/will use a binary zip: /usr/bin/zip
+9462.632 (6) Creation of backups of directories: already finished
+9462.810 (6) Saving backup status to database (elements: 10)
+9463.177 (6) Database dump (WordPress DB): Creation was completed already
+9463.490 (6) SQL compatibility mode is: NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION
+9464.338 (6) backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+9464.449 (6) backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+9464.538 (6) backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+9464.616 (6) backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-mu-plugins.zip: mu-plugins: This file has not yet been successfully uploaded: will queue
+9464.728 (6) backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-others.zip: others: This file has not yet been successfully uploaded: will queue
+9464.873 (6) backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-db.gz: db: This file has not yet been successfully uploaded: will queue
+9464.962 (6) Saving backup history. Total backup size: 101.4 MB
+9465.152 (6) Requesting upload of the files that have not yet been successfully uploaded (6)
+9465.408 (6) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+9465.620 (6) Beginning dispatch of backup to remote (googledrive) (instance identifier s-b7bd9630d3c3b535e862127e4d886469)
+9465.776 (6) Google Drive: this account is not authorised
+9465.954 (6) An error condition has occurred for the first time during this job
+9466.935 (6) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+9467.147 (6) Number of backup sets in history: 2; groups (db): 1
+9467.324 (6) Examining (for databases) backup set with group_id=0, nonce=993bc031422a, datestamp=1719299054 (Jun 25 2024 07:04:14)
+9467.513 (6) This backup set is the backup set just made, so will not be deleted.
+9467.513 (6) Examining (for databases) backup set with group_id=0, nonce=e39786d7b664, datestamp=1719251935 (Jun 24 2024 17:58:55)
+9467.513 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+9467.824 (6) Number of backup sets in history: 2; groups (files): 1
+9468.003 (6) Examining (for files) backup set with nonce=993bc031422a, datestamp=1719299054 (Jun 25 2024 07:04:14)
+9468.003 (6) This backup set is the backup set just made, so will not be deleted.
+9468.192 (6) This backup set is the backup set just made, so will not be deleted.
+9468.192 (6) This backup set is the backup set just made, so will not be deleted.
+9468.192 (6) This backup set is the backup set just made, so will not be deleted.
+9468.192 (6) This backup set is the backup set just made, so will not be deleted.
+9468.192 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+9468.426 (6) Examining (for files) backup set with nonce=e39786d7b664, datestamp=1719251935 (Jun 24 2024 17:58:55)
+9468.426 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+9468.592 (6) Retain: saving new backup history (sets now: 2) and finishing retain operation
+9469.374 (6) Resume backup (993bc031422a, 6): finish run
+9470.132 (6) [Info] Lock option (updraft_lock_993bc031422a, wp_options) released
+9470.599 (6) There were errors in the uploads, so the 'resume' event is remaining scheduled
+9471.067 (6) No email will/can be sent - the user has not configured an email address.
+9471.157 (6) La sauvegarde ne s'est pas terminée; une relance de la procédure est prévue
+9762.001 (7) Opened log file at time: Tue, 25 Jun 2024 09:46:56 +0000 on http://localhost:10003
+9762.090 (7) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.24.3 WP: 6.5.4 PHP: 8.1.23 (fpm-fcgi, Linux kali 6.8.11-amd64 #1 SMP PREEMPT_DYNAMIC Kali 6.8.11-1kali2 (2024-05-30) x86_64) MySQL: 8.0.16 (max packet size=16777216) WPLANG: fr_FR Server: nginx/1.16.0 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 8M | 10M) multisite: N openssl: OpenSSL 1.1.1f  31 Mar 2020 mcrypt: N LANG:  ZipArchive::addFile: Y
+9762.179 (7) Free space on disk containing Updraft's temporary directory: 205520 MB
+9762.268 (7) Requesting backup semaphore lock (993bc031422a)
+9762.424 (7) [Info] Lock (updraft_lock_993bc031422a, wp_options) acquired
+9762.603 (7) Backup run: resumption=7, nonce=993bc031422a, file_nonce=993bc031422a begun at=1719299054 (9763s ago), job type=backup
+9762.781 (7) Scheduling a resumption (8) after 300 seconds (1719309117) in case this run gets aborted
+9762.926 (7) Checking if we have a zip executable available
+9762.993 (7) Zip engine: found/will use a binary zip: /usr/bin/zip
+9763.060 (7) Creation of backups of directories: already finished
+9763.150 (7) Saving backup status to database (elements: 10)
+9763.339 (7) Database dump (WordPress DB): Creation was completed already
+9763.452 (7) SQL compatibility mode is: NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION
+9763.708 (7) backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+9763.788 (7) backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+9763.866 (7) backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+9763.944 (7) backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-mu-plugins.zip: mu-plugins: This file has not yet been successfully uploaded: will queue
+9764.263 (7) backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-others.zip: others: This file has not yet been successfully uploaded: will queue
+9764.457 (7) backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-db.gz: db: This file has not yet been successfully uploaded: will queue
+9764.568 (7) Saving backup history. Total backup size: 101.4 MB
+9764.758 (7) Requesting upload of the files that have not yet been successfully uploaded (6)
+9764.959 (7) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+9765.038 (7) Beginning dispatch of backup to remote (googledrive) (instance identifier s-b7bd9630d3c3b535e862127e4d886469)
+9765.137 (7) Google Drive: this account is not authorised
+9765.216 (7) An error condition has occurred for the first time during this job
+9765.394 (7) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+9765.463 (7) Number of backup sets in history: 2; groups (db): 1
+9765.528 (7) Examining (for databases) backup set with group_id=0, nonce=993bc031422a, datestamp=1719299054 (Jun 25 2024 07:04:14)
+9765.595 (7) This backup set is the backup set just made, so will not be deleted.
+9765.595 (7) Examining (for databases) backup set with group_id=0, nonce=e39786d7b664, datestamp=1719251935 (Jun 24 2024 17:58:55)
+9765.595 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+9765.662 (7) Number of backup sets in history: 2; groups (files): 1
+9765.740 (7) Examining (for files) backup set with nonce=993bc031422a, datestamp=1719299054 (Jun 25 2024 07:04:14)
+9765.740 (7) This backup set is the backup set just made, so will not be deleted.
+9765.819 (7) This backup set is the backup set just made, so will not be deleted.
+9765.819 (7) This backup set is the backup set just made, so will not be deleted.
+9765.819 (7) This backup set is the backup set just made, so will not be deleted.
+9765.819 (7) This backup set is the backup set just made, so will not be deleted.
+9765.819 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+9765.897 (7) Examining (for files) backup set with nonce=e39786d7b664, datestamp=1719251935 (Jun 24 2024 17:58:55)
+9765.897 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+9765.897 (7) Retain: saving new backup history (sets now: 2) and finishing retain operation
+9766.075 (7) Resume backup (993bc031422a, 7): finish run
+9766.232 (7) [Info] Lock option (updraft_lock_993bc031422a, wp_options) released
+9766.401 (7) There were errors in the uploads, so the 'resume' event is remaining scheduled
+9766.591 (7) No email will/can be sent - the user has not configured an email address.
+9766.680 (7) La sauvegarde ne s'est pas terminée; une relance de la procédure est prévue
+10064.463 (8) Opened log file at time: Tue, 25 Jun 2024 09:51:59 +0000 on http://localhost:10003
+10064.585 (8) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.24.3 WP: 6.5.4 PHP: 8.1.23 (fpm-fcgi, Linux kali 6.8.11-amd64 #1 SMP PREEMPT_DYNAMIC Kali 6.8.11-1kali2 (2024-05-30) x86_64) MySQL: 8.0.16 (max packet size=16777216) WPLANG: fr_FR Server: nginx/1.16.0 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 8M | 10M) multisite: N openssl: OpenSSL 1.1.1f  31 Mar 2020 mcrypt: N LANG:  ZipArchive::addFile: Y
+10064.663 (8) Free space on disk containing Updraft's temporary directory: 205593.3 MB
+10064.741 (8) Requesting backup semaphore lock (993bc031422a)
+10064.908 (8) [Info] Lock (updraft_lock_993bc031422a, wp_options) acquired
+10065.076 (8) Backup run: resumption=8, nonce=993bc031422a, file_nonce=993bc031422a begun at=1719299054 (10065s ago), job type=backup
+10065.221 (8) Scheduling a resumption (9) after 300 seconds (1719309419) in case this run gets aborted
+10065.367 (8) Checking if we have a zip executable available
+10065.435 (8) Zip engine: found/will use a binary zip: /usr/bin/zip
+10065.524 (8) Creation of backups of directories: already finished
+10065.614 (8) Saving backup status to database (elements: 10)
+10065.804 (8) Database dump (WordPress DB): Creation was completed already
+10065.893 (8) SQL compatibility mode is: NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION
+10066.172 (8) backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+10066.261 (8) backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+10066.396 (8) backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+10066.608 (8) backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-mu-plugins.zip: mu-plugins: This file has not yet been successfully uploaded: will queue
+10066.732 (8) backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-others.zip: others: This file has not yet been successfully uploaded: will queue
+10066.799 (8) backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-db.gz: db: This file has not yet been successfully uploaded: will queue
+10066.867 (8) Saving backup history. Total backup size: 101.4 MB
+10067.293 (8) Requesting upload of the files that have not yet been successfully uploaded (6)
+10067.484 (8) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+10067.573 (8) Beginning dispatch of backup to remote (googledrive) (instance identifier s-b7bd9630d3c3b535e862127e4d886469)
+10067.662 (8) Google Drive: this account is not authorised
+10067.740 (8) An error condition has occurred for the first time during this job
+10067.908 (8) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+10067.987 (8) Number of backup sets in history: 2; groups (db): 1
+10068.064 (8) Examining (for databases) backup set with group_id=0, nonce=993bc031422a, datestamp=1719299054 (Jun 25 2024 07:04:14)
+10068.153 (8) This backup set is the backup set just made, so will not be deleted.
+10068.153 (8) Examining (for databases) backup set with group_id=0, nonce=e39786d7b664, datestamp=1719251935 (Jun 24 2024 17:58:55)
+10068.153 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+10068.231 (8) Number of backup sets in history: 2; groups (files): 1
+10068.310 (8) Examining (for files) backup set with nonce=993bc031422a, datestamp=1719299054 (Jun 25 2024 07:04:14)
+10068.310 (8) This backup set is the backup set just made, so will not be deleted.
+10068.388 (8) This backup set is the backup set just made, so will not be deleted.
+10068.466 (8) This backup set is the backup set just made, so will not be deleted.
+10068.466 (8) This backup set is the backup set just made, so will not be deleted.
+10068.466 (8) This backup set is the backup set just made, so will not be deleted.
+10068.467 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+10068.533 (8) Examining (for files) backup set with nonce=e39786d7b664, datestamp=1719251935 (Jun 24 2024 17:58:55)
+10068.533 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+10068.533 (8) Retain: saving new backup history (sets now: 2) and finishing retain operation
+10068.889 (8) Resume backup (993bc031422a, 8): finish run
+10069.036 (8) [Info] Lock option (updraft_lock_993bc031422a, wp_options) released
+10069.192 (8) There were errors in the uploads, so the 'resume' event is remaining scheduled
+10069.573 (8) No email will/can be sent - the user has not configured an email address.
+10069.651 (8) La sauvegarde ne s'est pas terminée; une relance de la procédure est prévue
+10367.040 (9) Opened log file at time: Tue, 25 Jun 2024 09:57:01 +0000 on http://localhost:10003
+10367.117 (9) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.24.3 WP: 6.5.4 PHP: 8.1.23 (fpm-fcgi, Linux kali 6.8.11-amd64 #1 SMP PREEMPT_DYNAMIC Kali 6.8.11-1kali2 (2024-05-30) x86_64) MySQL: 8.0.16 (max packet size=16777216) WPLANG: fr_FR Server: nginx/1.16.0 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 8M | 10M) multisite: N openssl: OpenSSL 1.1.1f  31 Mar 2020 mcrypt: N LANG:  ZipArchive::addFile: Y
+10367.195 (9) Free space on disk containing Updraft's temporary directory: 205579.1 MB
+10367.284 (9) Requesting backup semaphore lock (993bc031422a)
+10367.441 (9) [Info] Lock (updraft_lock_993bc031422a, wp_options) acquired
+10367.608 (9) Backup run: resumption=9, nonce=993bc031422a, file_nonce=993bc031422a begun at=1719299054 (10368s ago), job type=backup
+10367.787 (9) The current run is resumption number 9, and there was nothing useful done on the last run (last useful run: 0) - will not schedule a further attempt until we see something useful happening this time
+10367.954 (9) Scheduling a resumption (10) after 300 seconds (1719309722); but the job will then be aborted unless something happens this time
+10368.111 (9) Creation of backups of directories: already finished
+10368.189 (9) Saving backup status to database (elements: 10)
+10368.369 (9) Database dump (WordPress DB): Creation was completed already
+10368.459 (9) SQL compatibility mode is: NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION
+10368.726 (9) backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+10368.805 (9) backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+10368.883 (9) backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+10368.961 (9) backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-mu-plugins.zip: mu-plugins: This file has not yet been successfully uploaded: will queue
+10369.039 (9) backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-others.zip: others: This file has not yet been successfully uploaded: will queue
+10369.118 (9) backup_2024-06-25-0804_Agence_Wordpress_Banana_design_993bc031422a-db.gz: db: This file has not yet been successfully uploaded: will queue
+10369.229 (9) Saving backup history. Total backup size: 101.4 MB
+10369.453 (9) Requesting upload of the files that have not yet been successfully uploaded (6)
+10369.631 (9) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+10369.710 (9) Beginning dispatch of backup to remote (googledrive) (instance identifier s-b7bd9630d3c3b535e862127e4d886469)
+10369.788 (9) Google Drive: this account is not authorised
+10369.855 (9) An error condition has occurred for the first time during this job
+10370.022 (9) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+10370.101 (9) Number of backup sets in history: 2; groups (db): 1
+10370.190 (9) Examining (for databases) backup set with group_id=0, nonce=993bc031422a, datestamp=1719299054 (Jun 25 2024 07:04:14)
+10370.279 (9) This backup set is the backup set just made, so will not be deleted.
+10370.279 (9) Examining (for databases) backup set with group_id=0, nonce=e39786d7b664, datestamp=1719251935 (Jun 24 2024 17:58:55)
+10370.279 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+10370.368 (9) Number of backup sets in history: 2; groups (files): 1
+10370.448 (9) Examining (for files) backup set with nonce=993bc031422a, datestamp=1719299054 (Jun 25 2024 07:04:14)
+10370.449 (9) This backup set is the backup set just made, so will not be deleted.
+10370.527 (9) This backup set is the backup set just made, so will not be deleted.
+10370.527 (9) This backup set is the backup set just made, so will not be deleted.
+10370.527 (9) This backup set is the backup set just made, so will not be deleted.
+10370.527 (9) This backup set is the backup set just made, so will not be deleted.
+10370.527 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+10370.604 (9) Examining (for files) backup set with nonce=e39786d7b664, datestamp=1719251935 (Jun 24 2024 17:58:55)
+10370.605 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+10370.605 (9) Retain: saving new backup history (sets now: 2) and finishing retain operation
+10370.772 (9) Resume backup (993bc031422a, 9): finish run
+10370.850 (9) [Info] Lock option (updraft_lock_993bc031422a, wp_options) released
+10371.006 (9) The resumption is being cancelled, as it was only scheduled to enable error reporting, which can be performed now
+10371.163 (9) No email will/can be sent - the user has not configured an email address.
+10371.252 (9) La tentative de sauvegarde est terminée, apparemment sans succès
